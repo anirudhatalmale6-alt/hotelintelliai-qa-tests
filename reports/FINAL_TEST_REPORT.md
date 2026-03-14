@@ -304,8 +304,8 @@ A thorough deep test of the Riverie hotel was performed per client request. Here
 
 **Location:** `test-scripts/`
 **Framework:** Playwright + Pytest
-**Total Tests:** 51
-**Coverage:** Authentication, Hotel Management, Knowledge Base, Dashboard, Staff
+**Total Tests:** 67 (51 original + 16 deep Riverie regression tests)
+**Coverage:** Authentication, Hotel Management, Knowledge Base, Dashboard, Staff, Deep Riverie Regression
 
 ### How to Run
 
@@ -333,6 +333,7 @@ pytest test_02_hotel_management.py::TestOnboardingWizard -v
 | `test_03_knowledge_base.py` | 8 | KB stats, file/URL/FAQ tabs, categories, documents |
 | `test_04_dashboard.py` | 13 | Hotel selection, command center pages, debug tools |
 | `test_05_staff.py` | 7 | Staff listing, roles, invites, new hotel empty state |
+| `test_06_deep_riverie.py` | 16 | BUG regression tests: conversations, charts, VIP filter, guest/escalation drill-down, guest lookup, KB |
 
 ### Configuration
 
