@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+explore_*.py
+login_*.py
+test_debug*.py
+test_remaining.py
+test_guest*.py
+manage_*.py
+scrape_*.py
+create_hotel.py
+wizard_full.py
+test_kb_upload.py
+test_staff.py
+screenshots/main_page.html
