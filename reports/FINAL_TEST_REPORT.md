@@ -282,9 +282,18 @@ A thorough deep test of the Riverie hotel was performed per client request. Here
 | Channel toggles (Step 2) | ✅ Pass | Custom CSS toggles, Web on by default |
 | Agent personality selection | ✅ Pass | 3 options + escalation email |
 | Hotel launch/provisioning | ✅ Pass | Creates hotel, KB collection, channels |
-| KB — File upload tab | ✅ Pass | Drag-drop area, supported formats listed |
-| KB — FAQ creation | ✅ Pass | Categories, question/answer, embedding works |
+| KB — File upload (TXT) | ✅ Pass | Embedded 1 chunk, content searchable via RAG |
+| KB — File upload (CSV) | ✅ Pass | Embedded 1 chunk, room rates data searchable |
+| KB — File upload (PDF) | ✅ Pass | Embedded 1 chunk, dining guide content searchable |
+| KB — File upload (DOCX) | ✅ Pass | Embedded 1 chunk, guest policies searchable |
+| KB — File upload (MD) | ✅ Pass | Embedded 1 chunk, spa menu content searchable |
+| KB — File upload (JSON) | ⚠️ Unsupported | "Could not extract text: Unsupported file type: .json" |
+| KB — File upload (HTML) | ⚠️ Unsupported | "Could not extract text: Unsupported file type: .html" |
+| KB — FAQ creation | ✅ Pass | Created 3 FAQs (breakfast, pool, cancellation) — all embedded and searchable via RAG |
+| KB — FAQ form validation | ✅ Pass | Add button disabled when fields empty |
 | KB — Document listing | ✅ Pass | Shows chunks, type, date, remove button |
+| KB — RAG search (FAQ) | ✅ Pass | FAQ content returned as top results with high similarity scores (0.72-0.78) |
+| KB — RAG search (Files) | ✅ Pass | Uploaded file content searchable — CSV, TXT, PDF, MD all return relevant results |
 | Dashboard — Hotel selection | ✅ Pass | Cards with channels, redirects to subdomain |
 | Dashboard — Overview stats | ✅ Pass | Conversations, guests, messages, escalations |
 | Dashboard — Guests page | ✅ Pass | Profiles, tiers, preferences, language |
@@ -304,8 +313,8 @@ A thorough deep test of the Riverie hotel was performed per client request. Here
 
 **Location:** `test-scripts/`
 **Framework:** Playwright + Pytest
-**Total Tests:** 67 (51 original + 16 deep Riverie regression tests)
-**Coverage:** Authentication, Hotel Management, Knowledge Base, Dashboard, Staff, Deep Riverie Regression
+**Total Tests:** 86 (51 original + 16 deep Riverie regression + 19 KB file/FAQ/RAG tests)
+**Coverage:** Authentication, Hotel Management, Knowledge Base (File Upload + FAQ + RAG), Dashboard, Staff, Deep Riverie Regression
 
 ### How to Run
 
@@ -334,6 +343,7 @@ pytest test_02_hotel_management.py::TestOnboardingWizard -v
 | `test_04_dashboard.py` | 13 | Hotel selection, command center pages, debug tools |
 | `test_05_staff.py` | 7 | Staff listing, roles, invites, new hotel empty state |
 | `test_06_deep_riverie.py` | 16 | BUG regression tests: conversations, charts, VIP filter, guest/escalation drill-down, guest lookup, KB |
+| `test_07_kb_files_faq.py` | 19 | File uploads (TXT, CSV, PDF, DOCX, MD, JSON, HTML), FAQ creation, RAG search verification |
 
 ### Configuration
 

@@ -1,0 +1,7 @@
+Hotel Riverie Test Document
+
+Check-in time: 3:00 PM
+Check-out time: 11:00 AM
+Pool hours: 6:00 AM to 10:00 PM
+Breakfast is served from 7:00 AM to 10:30 AM in the main restaurant.
+The hotel has 150 rooms across 5 categories.

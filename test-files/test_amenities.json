@@ -1,0 +1,20 @@
+{
+  "hotel": "The Riverie Test",
+  "amenities": [
+    "Pool",
+    "Spa",
+    "Gym",
+    "Restaurant",
+    "Bar",
+    "Business Center"
+  ],
+  "contact": {
+    "phone": "+66-123-456-789",
+    "email": "info@riverie-test.com"
+  },
+  "policies": {
+    "pets": "Small pets allowed with $50 deposit",
+    "smoking": "Non-smoking property",
+    "parking": "Complimentary valet parking"
+  }
+}
