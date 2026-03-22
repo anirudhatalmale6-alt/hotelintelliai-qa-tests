@@ -1,0 +1,384 @@
+{
+  "heritage_chiangrai": {
+    "name": "The Heritage Chiang Rai Hotel and Convention",
+    "chunks": 49,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'rooms'"
+        ]
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'swimming pool'"
+        ]
+      },
+      {
+        "question": "Do you have a spa? What treatments are available?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'spa'"
+        ]
+      },
+      {
+        "question": "What dining options or restaurants do you have?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'dining'"
+        ]
+      },
+      {
+        "question": "Is there airport transfer or shuttle service?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'airport'"
+        ]
+      },
+      {
+        "question": "Do you have a fitness center or gym?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'fitness'"
+        ]
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'cancellation'"
+        ]
+      },
+      {
+        "question": "Do you have WiFi? Is it free?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'wifi'"
+        ]
+      },
+      {
+        "question": "Is breakfast included? What time is it served?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'breakfast'"
+        ]
+      }
+    ]
+  },
+  "oberoi_udaivilas": {
+    "name": "The Oberoi Udaivilas",
+    "chunks": 352,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "I don't have the specific check-in and check-out times for Oberoi Udaivilas in my current information. However, I can see that we offer early check-in from 10:00 am and late check-out until 4:00 pm as part of certain packages, subject to availability. For the standard check-in and check-out times, I'd be happy to connect you with our reservations team who can provide you with the exact timings. You can reach us at reservations@oberoigroup.com or book online through our website. Is there anything",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks information to answer"
+        ]
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "At The Oberoi Udaivilas, we offer several exquisite room categories to suit your preferences: **Premier Rooms** - Available with semi-private courtyard views or with private pool access **Luxury Suites** - Featuring private pools for ultimate privacy and luxury **Kohinoor Suite** - Our most prestigious accommodation All our rooms and suites are elegantly appointed with marble bathrooms, high-speed internet access, and dedicated 24-hour butler service to ensure your stay is truly exceptional. Eac",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "Yes, we do have swimming pools at Oberoi Udaivilas! We offer several pool options for our guests: **Main Pool:** We have a beautiful main pool with views of our Mewari-style courtyard and lush green lawns. **Semi-Private Pools:** Many of our rooms feature access to semi-private pools, including: - Premier City Palace View Rooms with an 84-metre long semi-private pool - Premier Garden View Rooms with an 81-metre long semi-private pool **Private Pools:** Our luxury suites also come with private po",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a spa? What treatments are available?",
+        "response": "Yes, we have The Oberoi Spa exclusively for our resident guests at Udaivilas! Our spa offers a comprehensive range of treatments to help you relax and rejuvenate. **Available treatments include:** **Massage Therapies** - Choose from traditional and modern, Eastern and Western massage treatments to soothe the senses, restore vitality and revive the spirit. All treatments can be customized to suit your specific needs. **Facial Treatments** - Specially curated facials to relax, refresh and revitali",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What dining options or restaurants do you have?",
+        "response": "At The Oberoi Udaivilas, we offer exceptional dining experiences that blend international and Indian fine dining: **Main Restaurant** - Our naturally lit main restaurant serves ambient international and Indian fine dining cuisine, perfect for any time of day. **Al Fresco Terrace** - Enjoy your meal basking in sunlight with sweeping views from our beautiful outdoor terrace. **Palatial Evening Fine-Dining Venue** - A romantic setting perfect for celebrating special moments with your loved one in a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is there airport transfer or shuttle service?",
+        "response": "Yes, we do offer both airport transfer and shuttle bus service for our guests. These convenient transportation options are available to help make your journey to and from the hotel as smooth as possible. For specific details about scheduling, pricing, or to arrange your transfer, I'd be happy to connect you with our transportation desk who can assist with your arrangements.",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a fitness center or gym?",
+        "response": "Yes, we have a fitness centre at The Oberoi Udaivilas! Our fitness centre is well-equipped with cardiovascular machines and weights to help you maintain your workout routine during your stay. The fitness centre is exclusively for our resident guests' use, ensuring a comfortable and private environment for your exercise sessions. You can enjoy your workout while taking in the beautiful surroundings of our resort.",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "I don't have specific information about Oberoi Udaivilas' cancellation policy in my current knowledge base. For accurate details about our cancellation terms and conditions, I'd recommend contacting our reservations team directly at reservations@oberoigroup.com or calling our hotel directly. Our reservations team will be happy to explain the specific cancellation policy that applies to your booking, as policies can vary depending on the rate type, season, and booking conditions. Is there anythin",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks information to answer"
+        ]
+      },
+      {
+        "question": "Do you have WiFi? Is it free?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'wifi'"
+        ]
+      },
+      {
+        "question": "Is breakfast included? What time is it served?",
+        "response": "I don't have information about breakfast inclusion or serving times for Oberoi Udaivilas in my current knowledge base. For accurate details about breakfast services, including whether it's included in your rate and the exact serving hours, I'd recommend contacting the hotel directly or checking with our front desk team who can provide you with the most up-to-date information about our dining services. Is there anything else I can help you with regarding your stay? For the most accurate informati",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks information to answer"
+        ]
+      }
+    ]
+  },
+  "lePatte": {
+    "name": "le Patte",
+    "chunks": 306,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "We offer three types of rooms at Le Patta Hotel: **Superior Room (32 sqm)** - These are corner rooms located on the lowest floor, featuring 10-inch thick king size or twin beds, rain shower, 42-inch Smart TV, and a convenient touch-screen panel to control all lighting and air-conditioning systems. **Deluxe Room (32 sqm)** - These rooms offer stunning swimming pool views among our green garden and come with a 42-inch Smart TV with DVD player. **Suite Room (52 sqm)** - Our most spacious and comfor",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "Yes, we do! Le Patta features a beautiful salt water swimming pool surrounded by lush green gardens. Our Deluxe rooms even offer stunning swimming pool views, so you can enjoy the scenic pool area right from your room. It's a perfect spot to relax and unwind during your stay with us.",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a spa? What treatments are available?",
+        "response": "I don't have information about spa services or treatments available at Lepatte in my current resources. For details about spa facilities and available treatments, I'd recommend contacting the hotel directly - they'll be able to provide you with complete information about wellness services, treatment menus, and booking availability. Is there anything else about your stay that I can help you with? For the most accurate information, please contact us directly and our team will assist you right away",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks information to answer"
+        ]
+      },
+      {
+        "question": "What dining options or restaurants do you have?",
+        "response": "I'd be happy to recommend some wonderful dining options near Lepatte! Here are several excellent restaurants to choose from: **For Local Northern Thai Cuisine:** - **Khao Soi Phor Jai** - Famous for their Khao Soi Gai (coconut curry noodle soup with chicken) and other local dishes at reasonable prices - **Nam Ngiao Pa Suk** - Serving delicious Nam Ngiao (northern Thai spicy noodle soup with pork or beef) for over 50 years, considered one of the best places to eat in Chiang Rai **For Riverside Di",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is there airport transfer or shuttle service?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'airport'"
+        ]
+      },
+      {
+        "question": "Do you have a fitness center or gym?",
+        "response": "Yes, we do! Le Patta has partnered with Gorilla Gym Chiang Rai, which is located nearby the hotel. As our guest, you can access all of Gorilla Gym's facilities completely FREE OF CHARGE! The gym is open Monday-Friday from 7:00 AM to 9:00 PM, and Saturday-Sunday from 8:00 AM to 8:00 PM. Please note that they're closed every 3rd Saturday of the month. This partnership allows you to maintain your fitness routine during your stay with us at no additional cost!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'cancellation'"
+        ]
+      },
+      {
+        "question": "Do you have WiFi? Is it free?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'wifi'"
+        ]
+      },
+      {
+        "question": "Is breakfast included? What time is it served?",
+        "response": "I don't have information about breakfast services or meal times at Lepatte Hotel in my current resources. For details about breakfast inclusion and serving hours, I'd recommend contacting the hotel directly or checking with the front desk during your stay. They'll be able to provide you with the most accurate and up-to-date information about dining services and schedules. For the most accurate information, please contact us directly and our team will assist you right away.",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks information to answer"
+        ]
+      }
+    ]
+  },
+  "hotel_riviera_cr": {
+    "name": "The Riverie by Katathani",
+    "chunks": 467,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "We offer several beautiful room types at Hotel Riviera Cr to suit different needs and preferences: **Room Options:** - **Standard Room** - $150/night, accommodates 2 guests, 28 sqm - **Deluxe Room** - $220/night, accommodates 2 guests, 35 sqm - **Suite** - $380/night, accommodates 4 guests, 55 sqm - **Presidential Suite** - $750/night, accommodates 4 guests, 95 sqm - **Villa** - $1,200/night, accommodates 6 guests, 150 sqm We also have specialized room categories including Deluxe Garden, Deluxe ",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "Yes, we have a swimming pool! Our main swimming pool is open daily from 7:00 AM to 8:00 PM. We also offer several room categories with semi-private pools, including Premier City Palace View Rooms and Premier Garden View Rooms with 81-84 meter long pools accessible from your private terrace. Additionally, we have Premier Rooms with Pool View that overlook our main pool and Mewari-style courtyard.",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a spa? What treatments are available?",
+        "response": "Yes, we have the Tivaa Ratrii Spa at Hotel Riviera Cr! Our spa is open daily from 11:00 - 21:00 hrs and offers a range of treatments designed to enhance natural beauty and relax your muscles. We have a complete spa menu with various treatments available, and we also offer special spa promotions. For detailed information about all our treatments and current offers, I'd be happy to help you access our spa menu and promotions. To make a spa reservation or learn more about specific treatments, pleas",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What dining options or restaurants do you have?",
+        "response": "Welcome to Hotel Riviera Cr! We have several wonderful dining options for you: **The Riverie - Main Restaurant** Open daily from 7 AM to 11 PM, offering a full dining experience throughout the day. **Poolside Bar** Perfect for casual drinks and light bites, open from 10 AM to 8 PM with beautiful pool views. **Room Service** Available 24 hours a day for your convenience, so you can dine in the comfort of your room anytime. We also offer special dining experiences including our Breakfast Buffet (7",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is there airport transfer or shuttle service?",
+        "response": "Yes! The Riverie offers both airport transfer services and complimentary airport shuttle service between Chiang Rai International Airport (CEI) and the hotel. The airport shuttle is complimentary but requires advance booking. To arrange your airport transfer, please contact us directly: - Phone: +66 (0) 53 607999 - Email: booking@theriverie.com - LINE: @theriverie The airport is conveniently located just 10km from the hotel, making it a quick and easy journey.",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a fitness center or gym?",
+        "response": "Yes, we have a fitness centre located in a large air-conditioned tent. Our fitness centre is equipped with a range of cardiovascular machines and weights for your workout needs. It's exclusively available for our hotel guests to use during their stay.",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "Our cancellation policy offers free cancellation up to 48 hours before check-in. If you need to cancel within 48 hours of your arrival date, you will be charged for one night's stay. This gives you flexibility to adjust your travel plans while ensuring we can manage our reservations effectively. If you have any questions about canceling a specific reservation, I'm happy to help!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have WiFi? Is it free?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "PARTIAL",
+        "issues": [
+          "Response may not answer the question about 'wifi'"
+        ]
+      },
+      {
+        "question": "Is breakfast included? What time is it served?",
+        "response": "Based on our dining information, breakfast is served as a buffet from 7:00 AM to 10:30 AM daily at $25 per person, so it appears to be an additional charge rather than included. We also offer continental breakfast via room service starting at 6:00 AM, and on Sundays we have a special brunch service from 10:00 AM to 2:00 PM for $45 per person.",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      }
+    ]
+  }
+}
