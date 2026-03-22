@@ -1,0 +1,1000 @@
+{
+  "heritage_chiangrai": {
+    "name": "The Heritage Chiang Rai Hotel and Convention",
+    "id": "heritage_chiangrai",
+    "website": "heritagechiangrai.com",
+    "questions": [
+      {
+        "q_num": 1,
+        "question": "How many rooms does the hotel have?",
+        "expected_keywords": [
+          "321"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 2,
+        "question": "What room types are available?",
+        "expected_keywords": [
+          "deluxe",
+          "executive",
+          "suite",
+          "premier"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 3,
+        "question": "Do you have meeting or convention facilities?",
+        "expected_keywords": [
+          "ballroom",
+          "meeting"
+        ],
+        "response": "Yes, we have excellent meeting and convention facilities! Our Heritage Ballroom is a beautiful upscale event space located on the 1st floor in the heart of Chiang Rai city center. \n\nThe ballroom can accommodate up to 700 guests depending on your room configuration needs, and it features two breakout meeting rooms with lovely views overlooking our swimming pool. It's our second largest ballroom and perfect for making a great impression on your guests.\n\nWould you like more details about booking or specific requirements for your event?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "ballroom",
+          "meeting"
+        ]
+      },
+      {
+        "q_num": 4,
+        "question": "What restaurants do you have?",
+        "expected_keywords": [
+          "restaurant",
+          "dining"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 5,
+        "question": "Do you have a swimming pool?",
+        "expected_keywords": [
+          "pool"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 6,
+        "question": "Where is the hotel located?",
+        "expected_keywords": [
+          "chiang rai"
+        ],
+        "response": "I don't have the specific location details for Heritage Chiang Rai in my current information. For the hotel's exact address and location details, I'd be happy to connect you with our front desk team who can provide you with comprehensive directions and nearby landmarks.\n\nYou can reach our front desk directly, and they'll be delighted to assist you with location information and any travel arrangements you might need.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 7,
+        "question": "Do you have a fitness center?",
+        "expected_keywords": [
+          "fitness",
+          "gym"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 8,
+        "question": "Is there a spa?",
+        "expected_keywords": [
+          "spa"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 9,
+        "question": "What are nearby attractions?",
+        "expected_keywords": [
+          "white temple",
+          "night bazaar",
+          "clock tower"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 10,
+        "question": "Do you have WiFi?",
+        "expected_keywords": [
+          "wifi",
+          "free"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      }
+    ],
+    "summary": {
+      "total": 10,
+      "accurate": 1,
+      "partial": 0,
+      "no_info": 1,
+      "escalated": 8,
+      "unverified": 0,
+      "errors": 0,
+      "accuracy_pct": 10.0
+    }
+  },
+  "grand_vista_chiangrai": {
+    "name": "Grand Vista Chiangrai Hotel",
+    "id": "grand_vista_chiangrai",
+    "website": "grandvistachiangrai.com",
+    "questions": [
+      {
+        "q_num": 1,
+        "question": "What room types do you have?",
+        "expected_keywords": [
+          "superior",
+          "deluxe",
+          "suite"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 2,
+        "question": "Do you have a swimming pool?",
+        "expected_keywords": [
+          "pool"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 3,
+        "question": "Do you have a spa?",
+        "expected_keywords": [
+          "spa",
+          "massage"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 4,
+        "question": "What dining options are available?",
+        "expected_keywords": [
+          "restaurant",
+          "bar"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 5,
+        "question": "Do you have a fitness center?",
+        "expected_keywords": [
+          "fitness",
+          "gym"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 6,
+        "question": "Is there WiFi?",
+        "expected_keywords": [
+          "wifi"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 7,
+        "question": "Is there parking?",
+        "expected_keywords": [
+          "parking"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 8,
+        "question": "Where is the hotel located?",
+        "expected_keywords": [
+          "chiang rai"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 9,
+        "question": "How far is the airport?",
+        "expected_keywords": [
+          "airport"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 10,
+        "question": "What nearby attractions are there?",
+        "expected_keywords": [
+          "night bazaar",
+          "clock tower"
+        ],
+        "response": "There are many wonderful attractions near Grand Vista Chiangrai! Here are some highlights:\n\n**Very Close (within 2km):**\n- Chiang Saen - the old city walls (1.0 km)\n- Arisara Thai Massage (850 m)\n- Wat Jed Yod (1.8 km)\n- Chiang Rai Night Bazaar (1.9 km)\n- Tevari Spa (2.0 km)\n\n**Nearby (2-3km):**\n- Clock Tower (2.2 km)\n- Hill Tribe Museum (2.4 km)\n- Wat Phra Kaeo (Temple of the Emerald Buddha) (2.8 km)\n\n**A bit further (4-5km):**\n- Hall of Opium Museum (4.5 km)\n- Suwannee Thai Cooking Class (4.5 km)\n- Mae Fah Luang Art and Culture Park (4.8 km)\n\nYou'll find a nice mix of cultural sites, temples, shopping, and relaxation options all within easy reach of the hotel. The Night Bazaar and Clock Tower are particularly popular evening destinations!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "night bazaar",
+          "clock tower"
+        ]
+      }
+    ],
+    "summary": {
+      "total": 10,
+      "accurate": 1,
+      "partial": 0,
+      "no_info": 0,
+      "escalated": 9,
+      "unverified": 0,
+      "errors": 0,
+      "accuracy_pct": 10.0
+    }
+  },
+  "imperial_mae_ping": {
+    "name": "Imperial Mae Ping Hotel",
+    "id": "imperial_mae_ping",
+    "website": "imperialmaeping.com",
+    "questions": [
+      {
+        "q_num": 1,
+        "question": "What time is check-in and check-out?",
+        "expected_keywords": [
+          "check-in",
+          "check-out"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 2,
+        "question": "What restaurants do you have?",
+        "expected_keywords": [
+          "restaurant",
+          "dining"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 3,
+        "question": "Do you have a spa?",
+        "expected_keywords": [
+          "spa",
+          "massage"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 4,
+        "question": "Do you have a swimming pool?",
+        "expected_keywords": [
+          "pool"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 5,
+        "question": "Is there a fitness center?",
+        "expected_keywords": [
+          "fitness",
+          "gym"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 6,
+        "question": "Where is the hotel located?",
+        "expected_keywords": [
+          "chiang mai"
+        ],
+        "response": "I don't see specific location information for Imperial Mae Ping hotel in my current knowledge base. To provide you with accurate details about our hotel's location, I'd be happy to connect you with our front desk team who can give you precise address information and directions. You can reach them at our 24-hour reception. Is there anything else I can help you with regarding your stay?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "UNVERIFIED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 7,
+        "question": "Do you have parking?",
+        "expected_keywords": [
+          "parking"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 8,
+        "question": "Do you have meeting rooms?",
+        "expected_keywords": [
+          "meeting",
+          "conference",
+          "banquet"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 9,
+        "question": "Do you offer airport transfer?",
+        "expected_keywords": [
+          "airport",
+          "transfer"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 10,
+        "question": "Do you have WiFi?",
+        "expected_keywords": [
+          "wifi"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      }
+    ],
+    "summary": {
+      "total": 10,
+      "accurate": 0,
+      "partial": 0,
+      "no_info": 0,
+      "escalated": 9,
+      "unverified": 1,
+      "errors": 0,
+      "accuracy_pct": 0.0
+    }
+  },
+  "oberoi_udaivilas": {
+    "name": "The Oberoi Udaivilas",
+    "id": "oberoi_udaivilas",
+    "website": "oberoihotels.com",
+    "questions": [
+      {
+        "q_num": 1,
+        "question": "What types of rooms do you have?",
+        "expected_keywords": [
+          "suite",
+          "premier",
+          "luxury"
+        ],
+        "response": "At The Oberoi Udaivilas, we offer several exquisite room categories to suit your preferences:\n\n**Premier Rooms** - Available with semi-private courtyard views or with private pool access\n**Luxury Suites** - Featuring private pools for ultimate privacy and luxury\n**Kohinoor Suite** - Our most prestigious accommodation\n\nAll our rooms and suites feature elegant marble bathrooms, high-speed internet access, and personalized 24-hour butler service to ensure your stay is truly exceptional. Each accommodation is designed to provide you with the ultimate in comfort and luxury during your stay with us in Udaipur.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "suite",
+          "premier",
+          "luxury"
+        ]
+      },
+      {
+        "q_num": 2,
+        "question": "Do you have a swimming pool?",
+        "expected_keywords": [
+          "pool"
+        ],
+        "response": "Yes, we have beautiful swimming facilities at Oberoi Udaivilas! We offer several pool options:\n\n**Main Pool** - Located in our Mewari-style courtyard with views of lush green lawns, which you can enjoy from our Premier Rooms with Pool View.\n\n**Semi-Private Pools** - Available with select room categories:\n- Premier City Palace View Rooms feature access to an 84-metre long semi-private pool\n- Premier Garden View Rooms include access to an 81-metre long semi-private pool\n\n**Private Pools** - Available with our luxury suites including the Kohinoor Suite and Luxury Suites with Private Pool.\n\nAll pools offer a perfect way to refresh and unwind while enjoying the stunning views of Lake Pichola and our beautifully landscaped gardens. The semi-private and private pools are accessible directly from your room's private terrace, making them incredibly convenient and exclusive.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "pool"
+        ]
+      },
+      {
+        "q_num": 3,
+        "question": "What dining options are available?",
+        "expected_keywords": [
+          "restaurant",
+          "dining"
+        ],
+        "response": "I apologize, but I don't have specific information about the dining options available at Oberoi Udaivilas in my current knowledge base. \n\nTo get detailed information about our restaurants, cuisine types, operating hours, and dining experiences at Oberoi Udaivilas, I'd recommend contacting our concierge team directly at the hotel. They'll be delighted to share all the wonderful dining venues and culinary experiences we offer, including any special dining arrangements or reservations you might be interested in.\n\nIs there anything else I can help you with regarding your stay?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 4,
+        "question": "Do you have a spa?",
+        "expected_keywords": [
+          "spa"
+        ],
+        "response": "Yes, we have The Oberoi Spa at Udaivilas! Our spa offers a complete wellness experience with a variety of treatments designed to rejuvenate and relax you.\n\nWe offer massage treatments, sensory experiences, facial treatments, and yoga sessions. Our expert therapists provide personalized treatments to suit your specific needs, whether you're looking for tension release, skin rejuvenation, or full body relaxation.\n\nWe also offer private yoga sessions that can be tailored to any age and experience level, including breathing techniques, meditation, and yoga postures to rejuvenate both body and mind.\n\nThe spa is exclusively for our resident guests, and we recommend booking your appointment at least 12 hours in advance. Would you like me to help you request an appointment?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "spa"
+        ]
+      },
+      {
+        "q_num": 5,
+        "question": "What experiences do you offer?",
+        "expected_keywords": [
+          "yoga",
+          "painting",
+          "experience"
+        ],
+        "response": "We offer a wonderful variety of experiences at Oberoi Udaivilas to enrich your stay:\n\n**Cultural & Artistic Experiences:**\n- **Thekri Workshop** - Learn traditional mirror work art\n- **Henna Painting** - Relax as skilled mehendi artists create beautiful designs\n- **Play with Clay** - Creative pottery-making sessions with rural artisans\n- **Astrology** - Explore the ancient science using mathematical tools to map planetary positions\n\n**Exploration & Adventure:**\n- **Heritage Walk** - Starts with a private boat ride across the lake to a traditional ghat\n- **Off the Track** - Explore our landscaped gardens via smooth, flat pathways\n\n**Family Activities:**\n- **Children's Activity** - Special programs to ensure young guests enjoy their holiday\n\nEach experience is designed to immerse you in the rich culture and beauty of Udaipur while creating lasting memories during your stay with us.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 66.7,
+        "matched_kw": [
+          "painting",
+          "experience"
+        ]
+      },
+      {
+        "q_num": 6,
+        "question": "Where is the hotel located?",
+        "expected_keywords": [
+          "udaipur",
+          "lake"
+        ],
+        "response": "The Oberoi Udaivilas is located on the tranquil banks of Lake Pichola in Udaipur, India. The complete address is Lake Pichola, Udaipur 313001, India. \n\nThe hotel spans 30 acres of beautifully landscaped gardens and features interconnecting domes and walkways inspired by traditional Rajasthani design. It's conveniently located 27 kilometers from Maharana Pratap Airport, which is about a 45-minute drive.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "udaipur",
+          "lake"
+        ]
+      },
+      {
+        "q_num": 7,
+        "question": "Do you have meeting rooms?",
+        "expected_keywords": [
+          "meeting",
+          "conference"
+        ],
+        "response": "Yes, we have several meeting rooms available at Oberoi Udaivilas! We offer:\n\n**Meeting Room I** - A boardroom-style space (20 x 10 x 14 feet) that accommodates up to 8 guests, perfect for intimate business discussions.\n\n**Meeting Rooms II & III** - Each measuring 12 x 24 x 14 feet, these can accommodate up to 24 guests in theatre style or can be combined into one larger space for up to 48 guests.\n\nAll our meeting rooms are equipped with modern amenities including projectors and screens (2.4 metres x 1.5 metres), plus speakers as required. We also have **The Cocktail Room** (31 x 24 x 14 feet) which is ideal for more intimate gatherings of up to 48 guests and features an inbuilt audio system and screen.\n\nWould you like me to help you request a proposal for any of these meeting spaces?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 50.0,
+        "matched_kw": [
+          "meeting"
+        ]
+      },
+      {
+        "q_num": 8,
+        "question": "What nearby attractions can I visit?",
+        "expected_keywords": [
+          "palace",
+          "temple"
+        ],
+        "response": "I don't have specific information about nearby attractions to The Oberoi Udaivilas in my current resources. However, I'd be happy to help you discover the wonderful sights around Udaipur! \n\nPlease contact our concierge team directly - they'll provide you with detailed information about local attractions, arrange transportation, and help plan your sightseeing itinerary. You can also write to us at reservations@oberoigroup.com for assistance with planning your activities around the beautiful \"City of Lakes.\"\n\nOur team knows the area intimately and can recommend the best experiences based on your interests and preferences.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 9,
+        "question": "Do you have a fitness center?",
+        "expected_keywords": [
+          "fitness",
+          "gym"
+        ],
+        "response": "Yes, we have a fitness center at The Oberoi Udaivilas! Our fitness center is well-equipped with cardiovascular machines and weights to help you maintain your workout routine during your stay.\n\nThe facility is designed to provide you with everything you need for a complete fitness experience while enjoying the luxury and comfort that Oberoi is known for.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 50.0,
+        "matched_kw": [
+          "fitness"
+        ]
+      },
+      {
+        "q_num": 10,
+        "question": "Do you offer airport transfer?",
+        "expected_keywords": [
+          "airport",
+          "transfer"
+        ],
+        "response": "I don't have specific information about airport transfer services at Oberoi Udaivilas in my current resources. For details about airport transfers, including availability, pricing, and booking arrangements, I'd be happy to connect you with our reservations team who can provide you with complete information and assist with your transportation needs.\n\nWould you like me to help you get in touch with them, or is there anything else about your stay that I can assist you with?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      }
+    ],
+    "summary": {
+      "total": 10,
+      "accurate": 7,
+      "partial": 0,
+      "no_info": 3,
+      "escalated": 0,
+      "unverified": 0,
+      "errors": 0,
+      "accuracy_pct": 70.0
+    }
+  },
+  "lePatte": {
+    "name": "le Patte",
+    "id": "lePatte",
+    "website": "lepattachiangrai.com",
+    "questions": [
+      {
+        "q_num": 1,
+        "question": "What room types are available?",
+        "expected_keywords": [
+          "superior",
+          "deluxe",
+          "suite"
+        ],
+        "response": "We have three wonderful room types available at Le Patta Hotel:\n\n**Superior Room (32 sqm)** - These are corner rooms located on the lowest floor, featuring 10-inch thick king size or twin beds, rain shower, 42-inch Smart TV, and a convenient touch-screen panel to control all lighting and air-conditioning.\n\n**Deluxe Room (32 sqm)** - These rooms offer stunning swimming pool views among our green garden, complete with a 42-inch Smart TV and DVD player.\n\n**Suite Room (52 sqm)** - Our most spacious option provides the ultimate comfort with a separate living room featuring a 42-inch Smart TV and cozy couch, perfect for a luxurious stay.\n\nAll rooms come with modern amenities and are designed to ensure your comfort during your stay with us!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "superior",
+          "deluxe",
+          "suite"
+        ]
+      },
+      {
+        "q_num": 2,
+        "question": "How big are the rooms?",
+        "expected_keywords": [
+          "32",
+          "52",
+          "sqm"
+        ],
+        "response": "We have three room types with different sizes:\n\n**Superior Room**: 32 sqm - These are corner rooms located on the lowest floor with king size or twin beds and a rain shower.\n\n**Deluxe Room**: 32 sqm - These rooms offer stunning swimming pool views among the green garden.\n\n**Suite Room**: 52 sqm - Our largest and most spacious option, featuring a separate living room with a cozy couch for the most comfortable stay.\n\nAll rooms come equipped with 42-inch Smart TVs and modern amenities to ensure your comfort during your stay.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "32",
+          "52",
+          "sqm"
+        ]
+      },
+      {
+        "q_num": 3,
+        "question": "Do you have a swimming pool?",
+        "expected_keywords": [
+          "pool",
+          "salt"
+        ],
+        "response": "Yes, we have a beautiful salt water swimming pool! Our pool is surrounded by a lovely green garden and offers stunning views. It's one of our featured facilities that guests really enjoy for relaxation and recreation during their stay.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "pool",
+          "salt"
+        ]
+      },
+      {
+        "q_num": 4,
+        "question": "Is there a gym or fitness center?",
+        "expected_keywords": [
+          "gym",
+          "gorilla",
+          "fitness"
+        ],
+        "response": "Yes! Le Patta has partnered with Gorilla Gym Chiang Rai, which is located nearby the hotel. As a hotel guest, you can access all of Gorilla Gym's facilities completely **FREE OF CHARGE**!\n\n**Operating Hours:**\n- Monday - Friday: 7:00 AM - 9:00 PM\n- Saturday - Sunday: 8:00 AM - 8:00 PM\n- Closed every 3rd Saturday of the month\n\nThis is a wonderful complimentary service that allows you to maintain your fitness routine during your stay with us!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "gym",
+          "gorilla",
+          "fitness"
+        ]
+      },
+      {
+        "q_num": 5,
+        "question": "Do you have WiFi?",
+        "expected_keywords": [
+          "wifi"
+        ],
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ESCALATED",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 6,
+        "question": "Where is the hotel located?",
+        "expected_keywords": [
+          "chiang rai"
+        ],
+        "response": "I don't have the specific location details for Le Patta Hotel in my current information. For the most accurate address and location details, I'd recommend calling us at +66 81 3574579 or emailing sales@lepattachiangrai.com. Our team will be happy to provide you with the exact location and directions to help you find us easily!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 7,
+        "question": "What is nearby the hotel?",
+        "expected_keywords": [
+          "night bazaar",
+          "clock tower"
+        ],
+        "response": "I don't have specific information about nearby attractions or locations around Le Patta Hotel in my current resources. For detailed information about what's near the hotel - such as restaurants, shopping centers, temples, or tourist attractions - I'd recommend contacting our front desk directly at +66 81 3574579 or emailing sales@lepattachiangrai.com. \n\nOur staff will be happy to provide you with comprehensive information about nearby points of interest and can help you plan your activities during your stay!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 8,
+        "question": "Do you have a restaurant?",
+        "expected_keywords": [
+          "restaurant"
+        ],
+        "response": "I don't have information about restaurants within Lepatte hotel itself. However, I can recommend several excellent dining options nearby:\n\n**Dear Friend Cafe & Restaurant** is just 650 meters away and serves a wide variety including brunch, pasta, Thai food, coffee, wine, and cocktails - perfect for any meal or occasion.\n\nFor authentic local cuisine, I highly recommend **Khao Soi Phor Jai** for their famous Khao Soi Gai (coconut curry noodle soup with chicken) at very reasonable prices, or **Nam Ngiao Pa Suk** which has been serving the best northern Thai spicy noodle soup for over 50 years.\n\nIf you're looking for a scenic dining experience, **Chivit Thamma Da Coffee House** and **Leelawadee** are both beautifully located on the banks of the Kok River, offering great food with stunning river views.\n\nWould you like more details about any of these restaurants?\n\nFor the most accurate information, please contact us directly and our team will assist you right away.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 9,
+        "question": "Is there parking available?",
+        "expected_keywords": [
+          "parking"
+        ],
+        "response": "Yes, we have a parking lot available for our guests! This is one of our hotel facilities, so you can park your vehicle conveniently during your stay with us.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "parking"
+        ]
+      },
+      {
+        "q_num": 10,
+        "question": "How far is the airport?",
+        "expected_keywords": [
+          "7 km",
+          "airport",
+          "mae fah luang"
+        ],
+        "response": "Mae Fah Luang Chiang Rai Airport is 7 km away from Le Patta Hotel. It's a convenient location for travelers arriving by air!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "7 km",
+          "airport",
+          "mae fah luang"
+        ]
+      }
+    ],
+    "summary": {
+      "total": 10,
+      "accurate": 6,
+      "partial": 0,
+      "no_info": 3,
+      "escalated": 1,
+      "unverified": 0,
+      "errors": 0,
+      "accuracy_pct": 60.0
+    }
+  },
+  "hotel_riviera_cr": {
+    "name": "The Riverie by Katathani",
+    "id": "hotel_riviera_cr",
+    "website": "theriverie.com",
+    "questions": [
+      {
+        "q_num": 1,
+        "question": "What room types do you have?",
+        "expected_keywords": [
+          "deluxe",
+          "suite"
+        ],
+        "response": "We offer several beautiful room types at Hotel Riviera Cr:\n\n**Standard Room** - $150/night, accommodates 2 guests, 28 sqm\n\n**Deluxe Room** - $220/night, accommodates 2 guests, 35 sqm\nFeatures Lanna classic contemporary design with warm color tones and gold accents, offering modern amenities and ample space.\n\n**Suite** - $380/night, accommodates 4 guests, 55 sqm\n\n**Presidential Suite** - $750/night, accommodates 4 guests, 95 sqm\n\n**Two Bedroom Suite** - A luxurious 95 sqm suite with two separate bedrooms and bathrooms, situated on our highest level for refreshing clear air and a nature experience. (6 units available)\n\n**Villa** - $1,200/night, accommodates 6 guests, 150 sqm\n\nEach room type offers unique features and our signature luxury amenities. Would you like more details about any specific room type?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "deluxe",
+          "suite"
+        ]
+      },
+      {
+        "q_num": 2,
+        "question": "Do you have a water park?",
+        "expected_keywords": [
+          "water park",
+          "river splash"
+        ],
+        "response": "Yes, we do! We have **The River Splash**, which is our mini water park featuring exciting water slides, a lazy river, and an interactive water play area. \n\nFor the best experience, I'd recommend our **Deluxe Water Park** rooms - they're perfect for families of four and offer direct views of the mini water park, plus comfortable trundle beds for children. These 36 sqm rooms make it super convenient to enjoy all the water park fun!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "water park",
+          "river splash"
+        ]
+      },
+      {
+        "q_num": 3,
+        "question": "Do you have a spa?",
+        "expected_keywords": [
+          "spa",
+          "tivaa"
+        ],
+        "response": "Yes, we do have a spa! The Riverie by Katathani Chiang Rai features **Tivaa Ratrii Spa**, where you can indulge in a range of treatments to enhance natural beauty and relax your muscles.\n\n**Spa Details:**\n- **Hours:** Daily, 11:00 - 21:00 hrs\n- **Awards:** SHA (Amazing Thailand) 2020 and Shaplus Award 2021\n\nYou can view our complete spa menu and current promotions, or make a reservation directly. Would you like me to help you with booking a spa appointment?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "spa",
+          "tivaa"
+        ]
+      },
+      {
+        "q_num": 4,
+        "question": "What dining options are available?",
+        "expected_keywords": [
+          "restaurant"
+        ],
+        "response": "I apologize, but I don't have specific information about the dining options at Hotel Riviera Cr in my current knowledge base. \n\nTo get accurate details about our restaurants, bars, room service, and dining experiences, I'd recommend contacting our front desk directly or checking with our restaurant reservations team. They'll be happy to provide you with current menus, operating hours, and help you make reservations for any of our dining venues.\n\nIs there anything else I can help you with regarding your stay?",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 5,
+        "question": "Do you have a kids club?",
+        "expected_keywords": [
+          "kid",
+          "children"
+        ],
+        "response": "Yes, we do! We have Chang Maun Kids World, which is the most exciting kids club in Chiang Rai. It's a vibrant, spacious haven where children of all ages can let their imagination run wild, explore their creativity, and enjoy endless fun activities.\n\nThe kids club is open daily from 09:00 - 18:00 hours. We also have special promotions available for the kids club that you can learn more about. It's the perfect place for your little ones to create unforgettable memories while you enjoy your stay at The Riverie by Katathani!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "kid",
+          "children"
+        ]
+      },
+      {
+        "q_num": 6,
+        "question": "Do you have conference facilities?",
+        "expected_keywords": [
+          "conference",
+          "meeting"
+        ],
+        "response": "Yes, we have excellent conference facilities at Hotel Riviera Cr! We offer several versatile meeting spaces to accommodate different types of business events:\n\n**Chandra Mahal** - Our largest venue at 1,440 square feet, perfect for conferences up to 110 guests. It can be used as one large hall or divided into two separate spaces, and features a pre-function area with views of our marble lotus.\n\n**Meeting Rooms** - We have multiple meeting rooms (40 square metres each) that can accommodate up to 48 guests. Each is equipped with a projector, 2.4m x 1.5m screen, and speakers as required.\n\n**The Cocktail Room** - An intimate 744 square feet space for up to 48 guests, featuring an adjoining pre-function area, built-in audio system, and screen - ideal for smaller conferences or breakout sessions.\n\nAll venues offer flexible seating arrangements including theatre, classroom, U-shape, boardroom, and cocktail setups. Would you like me to help you request a proposal for your specific conference n",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "conference",
+          "meeting"
+        ]
+      },
+      {
+        "q_num": 7,
+        "question": "Where is the hotel located?",
+        "expected_keywords": [
+          "chiang rai"
+        ],
+        "response": "I don't have the specific location information for Hotel Riviera Cr in my available resources. For accurate details about our hotel's address and location, I'd recommend contacting our front desk directly, and they'll be happy to provide you with complete location information and directions.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "NO_INFO",
+        "match_pct": 0,
+        "matched_kw": []
+      },
+      {
+        "q_num": 8,
+        "question": "What is the phone number?",
+        "expected_keywords": [
+          "607999",
+          "53 607"
+        ],
+        "response": "The phone number for Hotel Riviera Cr is +66 53 607 999. You can call us anytime for assistance with your stay or reservations!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 50.0,
+        "matched_kw": [
+          "53 607"
+        ]
+      },
+      {
+        "q_num": 9,
+        "question": "Do you offer airport transfer?",
+        "expected_keywords": [
+          "airport",
+          "transfer"
+        ],
+        "response": "Yes, we offer airport transfer services between Chiang Rai International Airport (CEI) and The Riverie by Katathani! We provide complimentary airport shuttle service, though advance booking is required.\n\nTo book your airport transfer, please contact us directly:\n- Phone: +66 (0) 53 607999\n- Email: booking@theriverie.com\n- LINE: @theriverie\n\nI'd be happy to help arrange this for you - just let us know your flight details and we'll take care of the rest!",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "airport",
+          "transfer"
+        ]
+      },
+      {
+        "q_num": 10,
+        "question": "Do you have a swimming pool?",
+        "expected_keywords": [
+          "pool"
+        ],
+        "response": "Yes, we have a swimming pool! Our main swimming pool is open daily from 7:00 AM to 8:00 PM. We also offer several room categories with semi-private pools, including our Premier City Palace View Rooms and Premier Garden View Rooms, which feature private terraces with access to 81-84 meter long pools. Additionally, we have River Splash, our aquatic facility that operates from 7:00 AM to 8:00 PM daily.",
+        "intent": "faq",
+        "elapsed_ms": "",
+        "accuracy": "ACCURATE",
+        "match_pct": 100.0,
+        "matched_kw": [
+          "pool"
+        ]
+      }
+    ],
+    "summary": {
+      "total": 10,
+      "accurate": 8,
+      "partial": 0,
+      "no_info": 2,
+      "escalated": 0,
+      "unverified": 0,
+      "errors": 0,
+      "accuracy_pct": 80.0
+    }
+  }
+}
