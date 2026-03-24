@@ -1,265 +1,162 @@
-# HotelIntelliai — Deep AI Concierge Test Report
-
-**Date:** March 22, 2026
+# HotelIntelliai - Deep AI Concierge Testing Report
+**Date:** March 24, 2026
 **Tester:** Anirudha Talmale
 **Platform:** dashboard.hotelintelliai.com
-**Test Method:** Automated Playwright tests via Msg Simulator (Debug panel)
-**Test Scope:** 6 hotels, 10 questions each based on actual hotel website content
 
 ---
 
 ## Executive Summary
 
-| Hotel | KB Chunks | Questions | Accurate | Partial | No Info | Escalated | Score |
-|-------|-----------|-----------|----------|---------|---------|-----------|-------|
-| The Riverie by Katathani | 467 | 10 | 5 | 3 | 2 | 0 | **80%** |
-| le Patte | 306 | 10 | 6 | 0 | 3 | 1 | **60%** |
-| The Heritage Chiang Rai | 48 | 10 | 1 | 0 | 1 | 8 | **10%** |
-| Grand Vista Chiangrai | 13 | 10 | 1 | 0 | 0 | 9 | **10%** |
-| Imperial Mae Ping | 0 | 10 | 0 | 0 | 0 | 9 | **0%** |
-| The Oberoi Udaivilas | ~352 | 0 | - | - | - | - | **SKIPPED** |
+Tested AI concierge responses across 3 hotels with KB data using the Msg Simulator (Debug panel). 
+30 questions total (10 per hotel). Asked common guest questions about rooms, amenities, dining, spa, location, etc.
 
-**Overall Score: 16/50 tested questions answered correctly (32%)**
+**Overall Score: 5/30 questions answered correctly (16%)**
+- GOOD responses: 5 (16%)
+- ESCALATION responses: 12 (40%) - "Let me connect you with our team..."
+- NO_INFO responses: 3 (10%)
+- NO_RESPONSE (error): 10 (33%) - Imperial Mae Ping hotel_id was rejected
 
 ---
 
-## Critical Finding: Excessive Escalation to Human Support
+## Critical Bugs Found
 
-The most significant issue discovered is the **"escalation fallback" response pattern**:
+### BUG-012: Msg Simulator HOTEL ID Never Updates (CRITICAL)
+**Location:** Debug > Msg Simulator  
+**Issue:** The HOTEL ID field always defaults to "hotel_riviera_cr" (The Riverie) regardless of which hotel you navigate to. It never auto-updates when switching between hotels.  
+**Impact:** If a user doesn't manually change the HOTEL ID field, ALL queries go to The Riverie's KB, producing wrong answers for every other hotel.  
+**Expected:** HOTEL ID should auto-populate with the current hotel's ID when navigating to Debug > Msg Simulator.
 
-> "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly!"
+### BUG-013: Imperial Mae Ping - "Hotel not found" with collection ID (MODERATE)
+**Location:** Msg Simulator  
+**Issue:** Using "hotel_imperial_mae_ping" (the KB collection name shown on the KB page) returns "Hotel 'hotel_imperial_mae_ping' not found". Using "imperial_mae_ping" (the subdomain format) works but returns escalation for all questions.  
+**Root cause:** The HOTEL ID in the simulator expects the subdomain format, but the KB page shows the collection name format. These are inconsistent.
 
-This response was returned for **27 out of 50 questions (54%)** — even for basic hotel FAQs like "Do you have a pool?" or "Is there WiFi?" that should be answerable from the KB.
+### BUG-014: Imperial Mae Ping KB Contains Spam Content (CRITICAL)
+**Location:** Knowledge Base for Imperial Mae Ping  
+**Issue:** The domain imperialmaeping.com has been taken over by a gambling/spam site. The 31 chunks currently in the KB contain casino/poker content, NOT hotel information. All 10 hotel-related questions resulted in escalation responses.  
+**Fix needed:** Delete all KB content for Imperial Mae Ping and re-ingest from the correct hotel website.
 
-**Root Cause Analysis:**
-- Hotels with MORE KB chunks (Riverie: 467, le Patte: 306) produce useful answers
-- Hotels with FEWER chunks (Heritage: 48, Grand Vista: 13, Imperial: 0) almost always escalate
-- The AI confidence threshold appears too high — it escalates instead of attempting to answer from available KB data
-- This defeats the purpose of the AI concierge, as guests expect instant answers
+### BUG-015: URL Scraping Never Completes (CRITICAL)
+**Location:** Knowledge Base > URL tab > Scrape & Embed  
+**Issue:** Clicking "Scrape & Embed" shows "Scraping started, this may take a few minutes..." but never completes. After 3+ minutes of monitoring, chunks remain at 0. Tested with multiple hotels including working websites (theriverie.com, oberoihotels.com).  
+**Workaround:** File upload via the File tab works correctly. I uploaded .txt files with hotel content and they were embedded into chunks successfully.  
+**Impact:** Hotels cannot ingest their website content through the URL scraping feature.
 
-**Recommendation:** Lower the confidence threshold for triggering escalation, or implement a two-tier response: provide the best available answer AND offer to connect with the team for more details.
+### BUG-016: Three Hotel Websites Unreachable (INFO)
+**Websites tested:**
+- theheritage-chiangrai.com - Connection refused (site down)
+- grandvistachiangrai.com - SSL certificate error
+- lepatte.com - Connection refused (site down)
+
+These cannot be scraped even if the URL scraper was working.
 
 ---
 
-## Hotel-by-Hotel Detailed Results
+## Hotel-by-Hotel Results
 
-### 1. The Riverie by Katathani (hotel_riviera_cr) — 80% Accuracy
+### 1. Imperial Mae Ping Hotel (imperial_mae_ping) - 31 chunks
+**Score: 0/10 (0%)**  
+**Issue:** Hotel ID "hotel_imperial_mae_ping" returned "not found" error. With correct ID "imperial_mae_ping", all questions escalate because KB contains gambling/spam content from hijacked domain.
 
-**KB Status:** 467 chunks (website + files + FAQs)
-**Website:** theriverie.com
+| # | Question | Result | Response |
+|---|----------|--------|----------|
+| 1 | Check-in/out time? | NO_RESPONSE | Hotel not found error |
+| 2 | Room types? | NO_RESPONSE | Hotel not found error |
+| 3 | Swimming pool? | NO_RESPONSE | Hotel not found error |
+| 4 | Spa? | NO_RESPONSE | Hotel not found error |
+| 5 | Restaurants? | NO_RESPONSE | Hotel not found error |
+| 6 | WiFi? | NO_RESPONSE | Hotel not found error |
+| 7 | Airport transfer? | NO_RESPONSE | Hotel not found error |
+| 8 | Cancellation policy? | NO_RESPONSE | Hotel not found error |
+| 9 | Breakfast? | NO_RESPONSE | Hotel not found error |
+| 10 | Location? | NO_RESPONSE | Hotel not found error |
+
+### 2. The Oberoi Udaivilas (oberoi_udaivilas) - 3 chunks
+**Score: 4/10 (40%)**  
+**Analysis:** With only 3 chunks of content (from uploaded text file), the AI answered 4 questions well using the general Oberoi brand knowledge in the KB. Questions about specific amenities (pool, restaurants, fitness) escalated due to missing details.
 
 | # | Question | Result | Response Summary |
 |---|----------|--------|-----------------|
-| 1 | What room types do you have? | PARTIAL | Lists Standard/Deluxe/Suite but misses Family Suite, Riverie Suite, Royal Suite, Two-Bedroom Suite from website |
-| 2 | Do you have a water park? | ACCURATE | Correctly identifies "The River Splash" with water slides, lazy river |
-| 3 | Do you have a spa? | ACCURATE | Correctly names "Tivaa Ratrii Spa" with hours (11AM-9PM) |
-| 4 | What dining options are available? | PARTIAL | Lists "Madam Chow" but misses "Red Lanna" restaurant from website |
-| 5 | Do you have a kids club? | ACCURATE | Correctly identifies "Chang Maun Kids World" |
-| 6 | How many rooms does the hotel have? | NO_INFO | Cannot provide the 271 room count from website |
-| 7 | Do you have conference facilities? | PARTIAL | Mentions conference but says "Chandra Mahal" (Oberoi's venue name, NOT Riverie's) — cross-contamination |
-| 8 | Where is the hotel located? | NO_INFO | Cannot provide address (Kraisorasit Rd, Kok River) |
-| 9 | What is the phone number? | ACCURATE | Correctly provides +66 53 607 999 |
-| 10 | Do you offer airport transfer? | ACCURATE | Confirms airport shuttle service available |
+| 1 | Room types/suites? | ESCALATION | "Let me connect you with our team..." |
+| 2 | Swimming pool? | ESCALATION | "Let me connect you with our team..." |
+| 3 | Spa details? | NO_INFO | Acknowledged lack of info, provided phone number |
+| 4 | Restaurants? | ESCALATION | "Let me connect you with our team..." |
+| 5 | Yoga sessions? | GOOD | Detailed answer about Yoga Stretch & Daily Reflections program, Asmi wellness |
+| 6 | Experiences/activities? | GOOD | Listed wellness, swimming, fitness, signature experiences (some mixed with other Oberoi properties) |
+| 7 | Event/conference facilities? | GOOD | Detailed capacities (theatre 238, classroom 60, boardroom 80, cocktail 180) |
+| 8 | Location? | ESCALATION | "Let me connect you with our team..." |
+| 9 | Awards? | GOOD | Mentioned Oberoi brand awards (noted they were for Amarvilas, not Udaivilas specifically) |
+| 10 | Fitness center? | ESCALATION | "Let me connect you with our team..." |
 
-**Issues Found:**
-- BUG-C1: Conference room names confused with another hotel (Oberoi's "Chandra Mahal" mentioned for Riverie)
-- BUG-C2: Room types incomplete — KB has only generic types, not full list from theriverie.com
-- BUG-C3: Location/address not in KB despite being on website
+**Key finding:** When the AI has relevant KB content, it gives excellent detailed responses (5-8 seconds response time). When it doesn't have info, it escalates instantly (~2 seconds). The escalation vs answer pattern clearly maps to what's in the KB.
 
----
-
-### 2. le Patte (lePatte) — 60% Accuracy
-
-**KB Status:** 306 chunks (website + files + FAQs)
-**Website:** lepattachiangrai.com
+### 3. The Riverie by Katathani (hotel_riviera_cr) - 1 chunk
+**Score: 1/10 (10%)**  
+**Analysis:** With only 1 chunk of content, the AI could only answer the room types question (which was well-covered in the uploaded text). Everything else escalated.
 
 | # | Question | Result | Response Summary |
 |---|----------|--------|-----------------|
-| 1 | What room types are available? | ACCURATE | Correctly lists Superior (32sqm), Deluxe (32sqm), Suite (52sqm) |
-| 2 | How big are the rooms? | ACCURATE | Provides correct dimensions: 32sqm and 52sqm |
-| 3 | Do you have a swimming pool? | ACCURATE | Correctly identifies salt water swimming pool |
-| 4 | Is there a gym or fitness center? | ACCURATE | Correctly mentions Gorilla Gym partnership (free for guests) |
-| 5 | Do you have WiFi? | ESCALATED | Generic escalation instead of confirming free WiFi |
-| 6 | Where is the hotel located? | NO_INFO | Cannot provide address despite it being on website |
-| 7 | What is nearby the hotel? | NO_INFO | Cannot identify Night Bazaar (200m), Clock Tower, Walking Street |
-| 8 | Do you have a restaurant? | NO_INFO | Says "I don't have information about restaurants" — misses The Terrace Restaurant |
-| 9 | Is there parking available? | ACCURATE | Confirms complimentary parking |
-| 10 | How far is the airport? | ACCURATE | Correctly states "7 km from Mae Fah Luang Airport" |
-
-**Issues Found:**
-- BUG-C4: WiFi info not in KB despite being prominently advertised
-- BUG-C5: Location/address missing from KB
-- BUG-C6: Nearby attractions not scraped from website
-- BUG-C7: On-site restaurant (The Terrace) not recognized in KB
+| 1 | Room types? | GOOD | Excellent answer listing all 8 room types with sizes (Family Suite 62-75sqm, Riverie Suite 70-100sqm) |
+| 2 | Pool/water park? | ESCALATION | "Let me connect you with our team..." |
+| 3 | Spa? | NO_INFO | Acknowledged no spa info in KB |
+| 4 | Dining? | ESCALATION | "Let me connect you with our team..." |
+| 5 | Kids club? | ESCALATION | "Let me connect you with our team..." |
+| 6 | Weddings/conferences? | ESCALATION | "Let me connect you with our team..." |
+| 7 | Airport transfers? | NO_INFO | Acknowledged no transfer info |
+| 8 | Location? | ESCALATION | "Let me connect you with our team..." |
+| 9 | Phone number? | ESCALATION | "Let me connect you with our team..." |
+| 10 | Awards? | ESCALATION | "Let me connect you with our team..." |
 
 ---
 
-### 3. The Heritage Chiang Rai (heritage_chiangrai) — 10% Accuracy
+## Hotels Not Tested (0 KB chunks)
 
-**KB Status:** 48 chunks (website only)
-**Website:** heritagechiangrai.com
-
-| # | Question | Result | Response Summary |
-|---|----------|--------|-----------------|
-| 1 | How many rooms does the hotel have? | ESCALATED | Should answer "321 rooms" |
-| 2 | What room types are available? | ESCALATED | Should list Deluxe, Executive, Premier, Suite types |
-| 3 | Do you have meeting facilities? | ACCURATE | Correctly mentions Grand Ballroom, 1000 guests |
-| 4 | What restaurants do you have? | ESCALATED | Should mention All-Day Restaurant, Library Lounge |
-| 5 | Do you have a swimming pool? | ESCALATED | Should confirm outdoor pool |
-| 6 | Where is the hotel located? | NO_INFO | Cannot provide Paholyothin Road address |
-| 7 | Do you have a fitness center? | ESCALATED | Should confirm fitness center |
-| 8 | What is the phone number? | ESCALATED | Should provide +66 5205 5888 |
-| 9 | Is there a spa? | ESCALATED | Should confirm spa services |
-| 10 | What are nearby attractions? | ESCALATED | Should mention White Temple, Night Bazaar |
-
-**Issues Found:**
-- BUG-C8: Only 48 chunks scraped — website has significantly more content
-- BUG-C9: 8 out of 10 questions trigger escalation for a hotel with KB data
-- BUG-C10: Scraper may have failed to extract key pages (rooms, dining, facilities)
+| Hotel | Reason | Website Status |
+|-------|--------|----------------|
+| Heritage Chiang Rai | 0 chunks, website down | theheritage-chiangrai.com - ECONNREFUSED |
+| Grand Vista Chiangrai | 0 chunks, SSL error | grandvistachiangrai.com - TLS_CERT_ALTNAME_INVALID |
+| le Patte | 0 chunks, website down | lepatte.com - ECONNREFUSED |
 
 ---
 
-### 4. Grand Vista Chiangrai Hotel (grand_vista_chiangrai) — 10% Accuracy
+## Escalation Pattern Analysis
 
-**KB Status:** 13 chunks (just ingested from third-party listing)
-**Website:** grandvistachiangrai.com (SSL cert issue, used alternate URL)
+The client's observation is correct: "anything which says 'I want to make sure you get the best possible answer. Let me connect you with...' should be investigated."
 
-| # | Question | Result | Response Summary |
-|---|----------|--------|-----------------|
-| 1 | How many rooms does the hotel have? | ESCALATED | Should answer "80 rooms" |
-| 2 | Do you have a swimming pool? | ESCALATED | Should confirm saltwater pool |
-| 3 | Do you have a spa? | ESCALATED | Should confirm spa with massage services |
-| 4 | What dining options are available? | ESCALATED | Should mention Vista restaurant, lounge, bar |
-| 5 | Do you have a fitness center? | ESCALATED | Should confirm fitness center |
-| 6 | Is there WiFi? | ESCALATED | Should confirm free WiFi |
-| 7 | Is there parking? | ESCALATED | Should confirm free parking |
-| 8 | Where is the hotel located? | ESCALATED | Should provide Chiang Rai location |
-| 9 | How far is the airport? | ESCALATED | Should answer "5 km" |
-| 10 | What nearby attractions are there? | ACCURATE | Correctly lists Night Bazaar, Clock Tower, nearby attractions |
+This response occurs when:
+1. The AI's RAG search finds NO relevant KB chunks for the question
+2. The confidence threshold is not met
+3. ESCALATE flag is set to YES
 
-**Issues Found:**
-- BUG-C11: Only 13 chunks — far too few to answer basic questions
-- BUG-C12: Official website has SSL certificate issue, preventing direct scraping
-- BUG-C13: Need to scrape more pages or use alternative sources
-
----
-
-### 5. Imperial Mae Ping Hotel (imperial_mae_ping) — 0% Accuracy
-
-**KB Status:** 0 chunks (no documents)
-**Website:** chiangmai.intercontinental.com (now InterContinental)
-
-| # | Question | Result | Response Summary |
-|---|----------|--------|-----------------|
-| 1-9 | All questions | ESCALATED | All return escalation response |
-| 10 | Do you offer limousine service? | NO_RESPONSE | No response at all |
-
-**Issues Found:**
-- BUG-C14: KB completely empty — no website content ingested
-- BUG-C15: Hotel website (InterContinental) may block scraping
-- BUG-C16: URL scraping attempted but produced 0 chunks — needs manual content upload or different URL
-
----
-
-### 6. The Oberoi Udaivilas (oberoi_udaivilas) — SKIPPED
-
-**KB Status:** ~352 chunks (from previous test run data)
-**Website:** oberoihotels.com
-
-**Issue:** Could not access Debug panel — "Debug" menu link not found after navigating to hotel. The Oberoi hotel card may have a different dashboard layout or Debug access may be restricted.
-
-**Bug:** BUG-C17: Debug/Msg Simulator not accessible for The Oberoi Udaivilas hotel
-
----
-
-## Bug Summary
-
-### Critical Bugs (Blocking)
-
-| Bug ID | Description | Affected Hotels | Impact |
-|--------|-------------|-----------------|--------|
-| BUG-C14 | Imperial Mae Ping KB empty (0 chunks) | Imperial Mae Ping | 100% questions fail |
-| BUG-C8 | Heritage has only 48 chunks — insufficient KB coverage | Heritage | 90% questions escalate |
-| BUG-C11 | Grand Vista has only 13 chunks — insufficient KB coverage | Grand Vista | 90% questions escalate |
-
-### High Severity Bugs
-
-| Bug ID | Description | Affected Hotels | Impact |
-|--------|-------------|-----------------|--------|
-| BUG-C9 | Escalation threshold too aggressive | Heritage, Grand Vista, Imperial | Simple FAQs escalate to human |
-| BUG-C1 | Cross-contamination between hotels (Oberoi venue names in Riverie responses) | Riverie | Incorrect information given |
-| BUG-C17 | Debug panel not accessible for Oberoi Udaivilas | Oberoi | Cannot test concierge |
-
-### Medium Severity Bugs
-
-| Bug ID | Description | Affected Hotels |
-|--------|-------------|-----------------|
-| BUG-C3 | Hotel address/location not in KB | Heritage, Le Patte, Riverie |
-| BUG-C5 | Nearby attractions not scraped | Le Patte |
-| BUG-C6 | Website content not fully scraped (missing pages) | Heritage, Grand Vista |
-| BUG-C7 | On-site restaurant not recognized | Le Patte |
-| BUG-C2 | Room types incomplete | Riverie |
-
-### Low Severity Bugs
-
-| Bug ID | Description | Affected Hotels |
-|--------|-------------|-----------------|
-| BUG-C4 | WiFi information not in KB | Le Patte |
-| BUG-C12 | grandvistachiangrai.com has SSL cert issue | Grand Vista |
+Pattern observed:
+- ESCALATION responses take ~1.7-2.8 seconds (fast = no KB search match)
+- GOOD responses take ~5-8 seconds (slower = found KB content, generated answer)
+- This timing difference is a reliable indicator of KB coverage
 
 ---
 
 ## Recommendations
 
-### Immediate Actions
-1. **Re-scrape Heritage Chiang Rai website** — 48 chunks is insufficient. The website has detailed room, dining, facility, and event content that wasn't captured. Try scraping individual pages: /accommodation, /facilities, /dining, etc.
+1. **Fix URL Scraper (BUG-015):** The scraping backend is not processing jobs. This is the main blocker for loading KB content.
 
-2. **Fix Imperial Mae Ping ingestion** — Try uploading content manually (PDF/TXT) or use a third-party listing URL that the scraper can access (InterContinental's website may block scrapers).
+2. **Fix Hotel ID auto-population (BUG-012):** The Msg Simulator should auto-detect the current hotel context.
 
-3. **Re-scrape Grand Vista** — 13 chunks too few. The official site has SSL issues; try the Booking.com or Agoda listing pages which have comprehensive hotel info.
+3. **Clean Imperial Mae Ping KB:** Delete the 31 spam chunks and re-ingest from the correct hotel website (Imperial Hotels group or booking platform).
 
-4. **Fix Oberoi Debug access** — Investigate why the Debug panel is not available for this hotel.
+4. **Get correct URLs for broken websites:** Heritage Chiang Rai, Grand Vista, and le Patte websites are all unreachable. Need alternative sources for their content.
 
-### Architecture Improvements
-5. **Lower escalation confidence threshold** — The AI should attempt to answer from available KB data before escalating. A response like "Based on our available information, [answer]. For more details, please contact our team." is far better than immediate escalation.
-
-6. **Add location/address to all hotel KBs** — This is basic information every guest asks. Ensure the scraper captures contact/location pages.
-
-7. **Implement KB content validation** — After scraping, verify that key topics (rooms, dining, location, amenities) are present in the KB. Flag hotels with gaps.
-
-8. **Fix cross-hotel contamination** — Riverie's conference response mentioned "Chandra Mahal" which is an Oberoi venue. KB vector search may be matching across hotel collections.
+5. **More KB content needed:** Hotels with only 1-3 chunks can only answer a fraction of guest questions. Recommend ingesting multiple pages (rooms, dining, spa, amenities, policies, FAQ) to achieve 50+ chunks per hotel for comprehensive coverage.
 
 ---
 
-## Test Automation
+## Test Environment
+- Browser: Chromium (headless), 1280x720 viewport
+- Framework: Playwright + Python
+- Test script: deep_concierge_test_v7.py
+- All 30 questions tested with before/after screenshots
+- Results saved in: reports/concierge_test_v7_results.json
 
-All tests are automated using Playwright (Python). Test scripts are in the GitHub repository and can be re-run at any time:
+## Automated Test Scripts
+All Playwright test scripts are available in the GitHub repository:
+https://github.com/anirudhatalmale6-alt/hotelintelliai-qa-tests
 
-- `deep_concierge_test_v3.py` — Main concierge accuracy test (60 questions across 6 hotels)
-- `test_07_kb_files_faq.py` — KB upload/FAQ test suite (19 tests)
-- `test_06_deep_riverie.py` — Riverie feature regression tests (16 tests)
-- `ingest_missing_hotels.py` — KB website ingestion script
-- `check_kb_status.py` — Quick KB chunk count checker
-
-**To run tests:**
-```bash
-cd /path/to/hotelintelliai-qa-tests
-python3 deep_concierge_test_v3.py
-```
-
-Results are saved to `reports/concierge_test_results_v3.json` and screenshots in `screenshots/`.
-
----
-
-## Appendix: Test Questions Source
-
-All test questions were created based on actual content found on each hotel's official website. Expected keywords were extracted from the same source to verify accuracy. This ensures we're testing whether the AI concierge correctly reflects the hotel's own published information.
-
-| Hotel | Website Scraped | Key Info Found |
-|-------|----------------|----------------|
-| Heritage Chiang Rai | heritagechiangrai.com | 321 rooms, 6 room types, 2 ballrooms, restaurant, pool, spa |
-| Oberoi Udaivilas | oberoihotels.com | Suites with private pools, Asmi spa, 4 restaurants, Lake Pichola |
-| le Patte | lepattachiangrai.com | 3 room types (32-52sqm), salt pool, Gorilla Gym, 39 rooms |
-| Riverie by Katathani | theriverie.com | 8 room types, 271 rooms, water park, Tivaa spa, kids club |
-| Grand Vista Chiangrai | grand-vista-chiangrai.gochiangraihotels.com | 80 rooms, saltwater pool, spa, 4-star, airport 5km |
-| Imperial Mae Ping | chiangmai.intercontinental.com | 305 rooms, 5 restaurants, ii Spa, check-in 3PM/out 12PM |

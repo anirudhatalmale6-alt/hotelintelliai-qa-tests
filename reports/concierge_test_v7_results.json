@@ -1,0 +1,310 @@
+{
+  "hotel_imperial_mae_ping": {
+    "name": "Imperial Mae Ping Hotel",
+    "chunks": 31,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "Do you have a spa?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "What restaurants do you have?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "Is there WiFi available?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "Do you offer airport transfer?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "Is breakfast included?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      },
+      {
+        "question": "Where is the hotel located?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response"
+        ]
+      }
+    ]
+  },
+  "oberoi_udaivilas": {
+    "name": "The Oberoi Udaivilas",
+    "chunks": 3,
+    "questions": [
+      {
+        "question": "What types of rooms and suites do you have?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "1.84s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "1.68s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "Tell me about the spa",
+        "response": "I don't have specific information about the spa at Oberoi Udaivilas in my current knowledge base. To provide you with accurate details about our spa services, treatments, facilities, and booking information, I'd be happy to connect you with our spa team directly. You can reach our spa at +91 294 243 3300, and our team will be delighted to share information about our treatment menu, operating hours, and help you make reservations for a rejuvenating experience during your stay. Is there anything e",
+        "intent": "faq",
+        "elapsed": "5.49s",
+        "escalate": "no",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks info"
+        ]
+      },
+      {
+        "question": "What restaurants do you have?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "2.57s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "Do you offer yoga sessions?",
+        "response": "Yes, we offer yoga sessions at The Oberoi Udaivilas! Our **Yoga Stretch & Daily Reflections** program is designed to nourish your body and revitalise your soul through postures and breathing techniques that help you attain a state of wellbeing and serenity. Our expert instructors are happy to personalise private classes to suit your specific needs. These sessions are part of our Asmi by Oberoi wellness philosophy, which focuses on mindfulness practices and holistic well-being. To book a yoga ses",
+        "intent": "faq",
+        "elapsed": "6.32s",
+        "escalate": "no",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What experiences and activities are available?",
+        "response": "Based on our offerings at The Oberoi, Gurgaon, here are the wonderful experiences and activities available: **Wellness & Recreation:** - **Spa treatments** - The perfect setting to rediscover wellness with rejuvenating therapies - **Swimming** - Larger than Olympic size temperature-controlled outdoor pool, plus a shallow children's splash pool - **Fitness Centre** - Equipped with cardiovascular and strength machines, personal televisions and audio systems (exclusive for resident guests) - **Sign",
+        "intent": "faq",
+        "elapsed": "7.92s",
+        "escalate": "no",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have event or conference facilities?",
+        "response": "Yes, we have excellent event and conference facilities at Oberoi Hotels & Resorts! We offer sophisticated business centers and meeting rooms equipped with modern technologies, perfect for corporate conferences, product launches, seminars, and meetings. Our venues can accommodate various setups including theatre style (up to 238 guests), classroom (up to 60), boardroom (up to 80), and cocktail receptions (up to 180 guests). We also have larger reception spaces that can host up to 400 guests. Our ",
+        "intent": "faq",
+        "elapsed": "6.72s",
+        "escalate": "no",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Where is the hotel located?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "1.94s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "What awards has the hotel won?",
+        "response": "I can see that Oberoi Hotels & Resorts has won numerous prestigious awards, but the specific awards listed in our knowledge base are for The Oberoi Amarvilas in Agra, not Oberoi Udaivilas in Udaipur. However, I can tell you that Oberoi Hotels & Resorts as a group consistently achieves excellence in hospitality and garners accolades for unmatched luxury, impeccable service and unforgettable guest experiences. Our properties are recognized worldwide for delivering unparalleled quality and elevatin",
+        "intent": "faq",
+        "elapsed": "7.57s",
+        "escalate": "no",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a fitness center?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "1.79s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      }
+    ]
+  },
+  "hotel_riviera_cr": {
+    "name": "The Riverie by Katathani",
+    "chunks": 1,
+    "questions": [
+      {
+        "question": "What types of rooms do you have?",
+        "response": "We offer several beautiful room types at The Riverie by Katathani: **Room Types Available:** - **Deluxe Room** - **Deluxe Garden** - **Deluxe Water Park** - **Deluxe River** - **Family Suite** (62-75 sqm, 18 units) - Perfect for families of four with a parent's bedroom and children's corner separated by a sliding door, plus bathroom with both shower and bathtub - **Riverie Suite** (70-100 sqm, 20 units) - Our spacious and luxurious option featuring a bedroom, living room, private bathroom with s",
+        "intent": "faq",
+        "elapsed": "6.93s",
+        "escalate": "no",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a swimming pool or water park?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "1.95s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "Do you have a spa?",
+        "response": "I don't have specific information about spa services at Hotel Riviera Cr in my current resources. However, I'd be happy to check with our facilities team or connect you with someone who can provide detailed information about our wellness amenities. Would you like me to have someone from our guest services team contact you with information about spa treatments and wellness facilities available at the hotel?",
+        "intent": "faq",
+        "elapsed": "5.52s",
+        "escalate": "no",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks info"
+        ]
+      },
+      {
+        "question": "What dining options do you have?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "2s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "Do you have a kids club?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "2.36s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "Can you host weddings or conferences?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "2.05s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "Do you offer airport transfers?",
+        "response": "I don't have information about airport transfer services in my current resources. For details about airport transfers and transportation options, I'd recommend contacting our front desk directly. They'll be able to provide you with current information about available transfer services, pricing, and booking arrangements. Is there anything else about your stay that I can help you with? For the most accurate information, please contact us directly and our team will assist you right away.",
+        "intent": "faq",
+        "elapsed": "5.24s",
+        "escalate": "no",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks info"
+        ]
+      },
+      {
+        "question": "Where is the hotel located?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "2.8s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "What is the hotel phone number?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "2.41s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      },
+      {
+        "question": "What awards has the hotel won?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "faq",
+        "elapsed": "2.05s",
+        "escalate": "YES",
+        "quality": "ESCALATION",
+        "issues": [
+          "KB missing info"
+        ]
+      }
+    ]
+  }
+}

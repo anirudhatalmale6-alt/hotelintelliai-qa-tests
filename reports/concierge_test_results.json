@@ -1,0 +1,346 @@
+{
+  "heritage_chiangrai": {
+    "name": "The Heritage Chiang Rai Hotel and Convention",
+    "chunks": 49,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a spa? What treatments are available?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need any assistance with early check-in or late check-out arrangements, please let me know and I'll be happy to help!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What dining options or restaurants do you have?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is there airport transfer or shuttle service?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a fitness center or gym?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have WiFi? Is it free?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is breakfast included? What time is it served?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      }
+    ]
+  },
+  "oberoi_udaivilas": {
+    "name": "The Oberoi Udaivilas",
+    "chunks": 352,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a spa? What treatments are available?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What dining options or restaurants do you have?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. We'll be happy to assist you with your arrival and departure!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is there airport transfer or shuttle service?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a fitness center or gym?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have WiFi? Is it free?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is breakfast included? What time is it served?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      }
+    ]
+  },
+  "lePatte": {
+    "name": "le Patte",
+    "chunks": 306,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a spa? What treatments are available?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What dining options or restaurants do you have?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is there airport transfer or shuttle service?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a fitness center or gym?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. We'll be happy to assist you with your arrival and departure!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. We look forward to welcoming you to Hotel Riviera Cr!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have WiFi? Is it free?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is breakfast included? What time is it served?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need any assistance with early check-in or late check-out arrangements, please let me know and I'll be happy to help!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      }
+    ]
+  },
+  "hotel_riviera_cr": {
+    "name": "The Riverie by Katathani",
+    "chunks": 467,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a spa? What treatments are available?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What dining options or restaurants do you have?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is there airport transfer or shuttle service?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have a fitness center or gym?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Do you have WiFi? Is it free?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. If you need early check-in or late check-out, please let me know and I'll be happy to check availability for you!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "Is breakfast included? What time is it served?",
+        "response": "Check-in time is 3:00 PM and check-out time is 11:00 AM. We'll be happy to assist you with your arrival and departure!",
+        "intent": "",
+        "elapsed": "ELAPSED",
+        "quality": "GOOD",
+        "issues": []
+      }
+    ]
+  }
+}

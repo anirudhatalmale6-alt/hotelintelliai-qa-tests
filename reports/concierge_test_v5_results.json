@@ -1,0 +1,298 @@
+{
+  "imperial_mae_ping": {
+    "name": "Imperial Mae Ping Hotel",
+    "chunks": 31,
+    "questions": [
+      {
+        "question": "What time is check-in and check-out?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "What types of rooms do you have?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Do you have a spa?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "What restaurants do you have?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Is there WiFi available?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Do you offer airport transfer?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Is breakfast included?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Where is the hotel located?",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "issues": [
+          "No response from simulator"
+        ]
+      }
+    ]
+  },
+  "oberoi_udaivilas": {
+    "name": "The Oberoi Udaivilas",
+    "chunks": 3,
+    "questions": [
+      {
+        "question": "What types of rooms and suites do you have?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Oberoi Udaivilas\").first\n"
+        ]
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Oberoi Udaivilas\").first\n"
+        ]
+      },
+      {
+        "question": "Tell me about the spa",
+        "response": "I'd be happy to tell you about our spa! We have the **Tivaa Ratrii Spa** where you can make time for yourself and enjoy a delightful range of head-to-toe treatments. Our spa services are designed to enhance natural beauty, soothe and beautify hands and feet, and help relax aching muscles. **Operating Hours:** Daily from 11:00 AM - 9:00 PM We offer a comprehensive spa menu with various treatments, and we also have special promotions available. You can easily make a reservation through our spa res",
+        "intent": "",
+        "elapsed": "",
+        "quality": "GOOD",
+        "issues": []
+      },
+      {
+        "question": "What restaurants do you have?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Do you offer yoga sessions?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "What experiences and activities are available?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Do you have event or conference facilities?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Where is the hotel located?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "What awards has the hotel won?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Oberoi Udaivilas\").first\n"
+        ]
+      },
+      {
+        "question": "Do you have a fitness center?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Oberoi Udaivilas\").first\n"
+        ]
+      }
+    ]
+  },
+  "hotel_riviera_cr": {
+    "name": "The Riverie by Katathani",
+    "chunks": 1,
+    "questions": [
+      {
+        "question": "What types of rooms do you have?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Riverie by Katathani\").first\n"
+        ]
+      },
+      {
+        "question": "Do you have a swimming pool or water park?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Riverie by Katathani\").first\n"
+        ]
+      },
+      {
+        "question": "Do you have a spa?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Riverie by Katathani\").first\n"
+        ]
+      },
+      {
+        "question": "What dining options do you have?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Riverie by Katathani\").first\n"
+        ]
+      },
+      {
+        "question": "Do you have a kids club?",
+        "response": "",
+        "quality": "ERROR",
+        "issues": [
+          "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"text=The Riverie by Katathani\").first\n"
+        ]
+      },
+      {
+        "question": "Can you host weddings or conferences?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "Do you offer airport transfers?",
+        "response": "I don't have information about airport transfer services in my current resources. For details about airport transfers, including availability, pricing, and booking procedures, I'd recommend contacting our front desk directly. They'll be able to provide you with complete information about transportation options and can help arrange the most convenient transfer service for your stay. Is there anything else I can help you with regarding your visit to Hotel Riviera Cr? For the most accurate informat",
+        "intent": "",
+        "elapsed": "",
+        "quality": "NO_INFO",
+        "issues": [
+          "AI lacks information to answer"
+        ]
+      },
+      {
+        "question": "Where is the hotel located?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "What is the hotel phone number?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      },
+      {
+        "question": "What awards has the hotel won?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a",
+        "intent": "",
+        "elapsed": "",
+        "quality": "ESCALATION",
+        "issues": [
+          "AI escalated instead of answering - KB may be missing this info"
+        ]
+      }
+    ]
+  }
+}
