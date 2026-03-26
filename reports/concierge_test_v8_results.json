@@ -1,0 +1,600 @@
+{
+  "oberoi_udaivilas": {
+    "name": "The Oberoi Udaivilas",
+    "collection_id": "oberoi_udaivilas",
+    "chunks": 269,
+    "questions": [
+      {
+        "question": "What types of rooms and suites do you offer?",
+        "category": "Rooms",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "What restaurants do you have and what cuisine do they serve?",
+        "category": "Dining",
+        "response": "I'd be happy to help you with information about our restaurants at Oberoi Udaivilas! However, I don't have the specific restaurant details for our Udaivilas property in my current information. For the most accurate and up-to-date information about our dining venues and cuisines at Oberoi Udaivilas, I'd recommend contacting our hotel directly or speaking with our front desk team who can provide you with complete details about our restaurants, their specialties, operating hours, and help you make reservations. Is there anything else I can assist you with regarding your stay with us?",
+        "quality": "NO_INFO",
+        "accuracy": 0,
+        "issues": [
+          "AI couldn't find information in KB"
+        ],
+        "intent": "faq",
+        "elapsed": "6.5s",
+        "escalate": "no",
+        "expected_keywords": [
+          "suryamahal",
+          "chandni",
+          "mewar",
+          "vineet",
+          "bar",
+          "promenade"
+        ],
+        "found_keywords": [],
+        "missed_keywords": [
+          "suryamahal",
+          "chandni",
+          "mewar",
+          "vineet",
+          "bar",
+          "promenade"
+        ]
+      },
+      {
+        "question": "Tell me about the spa facilities",
+        "category": "Spa",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "Do you have a swimming pool?",
+        "category": "Pool",
+        "response": "Yes, we do have swimming pools at The Oberoi Udaivilas! Our resort features beautiful pools where you can relax and unwind while enjoying the serene atmosphere of our palace-inspired property on the banks of Lake Pichola. The pools provide a perfect way to cool off while taking in the stunning views of Udaipur's romantic landscape. Would you like to know more about our other recreational facilities or amenities?",
+        "quality": "PARTIAL",
+        "accuracy": 33.33333333333333,
+        "issues": [
+          "Missing keywords: temperature, mughal"
+        ],
+        "intent": "faq",
+        "elapsed": "4.65s",
+        "escalate": "no",
+        "expected_keywords": [
+          "pool",
+          "temperature",
+          "mughal"
+        ],
+        "found_keywords": [
+          "pool"
+        ],
+        "missed_keywords": [
+          "temperature",
+          "mughal"
+        ]
+      },
+      {
+        "question": "What experiences and activities can I do at the hotel?",
+        "category": "Activities",
+        "response": "Based on the information available, here are some wonderful experiences you can enjoy at The Oberoi Udaivilas: **Garden & Nature Experiences:** - Take a horticultural walk through our beautiful verdant gardens, which concludes with a delicious four-course high tea at The Polo Club, our alfresco bar **Luxury Accommodations:** - Experience our stunning suites, including the magnificent Kohinoor Suite with its private 20-metre pool, gold domed ceilings, mirror mosaics, and breathtaking views of Lake Pichola, the City Palace, and Aravalli Hills **Dining:** - Enjoy high tea at The Polo Club, our outdoor bar with garden views The hotel's setting offers spectacular views of Lake Pichola, the City Palace, and the Aravalli Hills, making it perfect for relaxation and taking in Udaipur's natural beauty. Our gardens provide a tranquil escape where you can connect with nature while enjoying the luxury amenities of this 5-star resort.",
+        "quality": "POOR",
+        "accuracy": 0.0,
+        "issues": [
+          "Missing keywords: yoga, painting, cook, dinner, lakeside"
+        ],
+        "intent": "faq",
+        "elapsed": "7.32s",
+        "escalate": "no",
+        "expected_keywords": [
+          "yoga",
+          "painting",
+          "cook",
+          "dinner",
+          "lakeside"
+        ],
+        "found_keywords": [],
+        "missed_keywords": [
+          "yoga",
+          "painting",
+          "cook",
+          "dinner",
+          "lakeside"
+        ]
+      },
+      {
+        "question": "Where is the hotel located and how do I get there from the airport?",
+        "category": "Location",
+        "response": "I apologize, but I don't have specific location and airport transfer information for Oberoi Udaivilas in my current resources. For the most accurate directions and transportation options from the airport to the hotel, I'd be happy to connect you with our reservations team who can provide detailed travel arrangements and assistance with airport transfers. Would you like me to help you with anything else about your stay with us?",
+        "quality": "NO_INFO",
+        "accuracy": 0,
+        "issues": [
+          "AI couldn't find information in KB"
+        ],
+        "intent": "faq",
+        "elapsed": "5.13s",
+        "escalate": "no",
+        "expected_keywords": [
+          "pichola",
+          "udaipur",
+          "airport",
+          "maharana pratap"
+        ],
+        "found_keywords": [
+          "airport"
+        ],
+        "missed_keywords": [
+          "pichola",
+          "udaipur",
+          "maharana pratap"
+        ]
+      },
+      {
+        "question": "Can you host a wedding or conference at the hotel?",
+        "category": "Events",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "What awards has the hotel won recently?",
+        "category": "Awards",
+        "response": "Based on our recent recognition, The Oberoi Hotels has received several prestigious awards: **2025 Awards:** - Best Hotel Group in the World - Telegraph Travel Awards, UK - Travel + Leisure Hall of Fame 2025 - Best Hotel Brand in the World (Ranked 2nd) - Travel + Leisure World's Best Awards **2024 Awards:** - Best Luxury Hotel Group in the World - Times Travel Awards, UK These awards reflect our commitment to providing exceptional luxury hospitality experiences across all our properties, including here at Udaivilas.",
+        "quality": "PARTIAL",
+        "accuracy": 33.33333333333333,
+        "issues": [
+          "Missing keywords: conde nast, michelin"
+        ],
+        "intent": "faq",
+        "elapsed": "6.56s",
+        "escalate": "no",
+        "expected_keywords": [
+          "conde nast",
+          "michelin",
+          "award"
+        ],
+        "found_keywords": [
+          "award"
+        ],
+        "missed_keywords": [
+          "conde nast",
+          "michelin"
+        ]
+      },
+      {
+        "question": "What nearby attractions can I visit?",
+        "category": "Attractions",
+        "response": "I'd be happy to help you discover the wonderful attractions near Oberoi Udaivilas! Based on our location in the beautiful city of Udaipur, you can explore the charming old city with its narrow lanes, traditional 'haveli' mansions, and historic shrines. We offer guided walking tours through Udaipur's lesser-visited areas where you'll hear fascinating stories of folk deities and fabled heroes from our professional guides. Since these tours involve extensive walking through the old city, I'd recommend wearing comfortable footwear for the best experience. Would you like me to arrange a personalized tour for you, or do you have any specific attractions in Udaipur you'd like to know more about?",
+        "quality": "POOR",
+        "accuracy": 0.0,
+        "issues": [
+          "Missing keywords: city palace, jagdish, kumbhalgarh, ranakpur"
+        ],
+        "intent": "faq",
+        "elapsed": "7.25s",
+        "escalate": "no",
+        "expected_keywords": [
+          "city palace",
+          "jagdish",
+          "kumbhalgarh",
+          "ranakpur"
+        ],
+        "found_keywords": [],
+        "missed_keywords": [
+          "city palace",
+          "jagdish",
+          "kumbhalgarh",
+          "ranakpur"
+        ]
+      },
+      {
+        "question": "Do you have a fitness center?",
+        "category": "Fitness",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "What is the phone number and email to contact the hotel?",
+        "category": "Contact",
+        "response": "For reservations and immediate assistance, you can contact us at **reservations@oberoigroup.com**. Please note that we are currently experiencing a temporary disruption in our Central Reservation toll-free and telephone services, so email is the best way to reach us at this time. You can also book directly online through our website.",
+        "quality": "POOR",
+        "accuracy": 0.0,
+        "issues": [
+          "Missing keywords: 294, 2433300, oberoihotels"
+        ],
+        "intent": "faq",
+        "elapsed": "4.52s",
+        "escalate": "no",
+        "expected_keywords": [
+          "294",
+          "2433300",
+          "oberoihotels"
+        ],
+        "found_keywords": [],
+        "missed_keywords": [
+          "294",
+          "2433300",
+          "oberoihotels"
+        ]
+      },
+      {
+        "question": "How large is the hotel property?",
+        "category": "Property",
+        "response": "I don't have specific information about the total size of The Oberoi Udaivilas property in my available resources. However, I'd be happy to connect you with our front desk team who can provide you with detailed information about our resort's expansive grounds, including our lush gardens, lakefront location, and various facilities spread across the property. You can reach them directly, and they'll be delighted to share more specifics about our beautiful estate on the banks of Lake Pichola.",
+        "quality": "NO_INFO",
+        "accuracy": 0,
+        "issues": [
+          "AI couldn't find information in KB"
+        ],
+        "intent": "faq",
+        "elapsed": "6.71s",
+        "escalate": "no",
+        "expected_keywords": [
+          "121",
+          "30 acre",
+          "landscaped",
+          "garden"
+        ],
+        "found_keywords": [
+          "garden"
+        ],
+        "missed_keywords": [
+          "121",
+          "30 acre",
+          "landscaped"
+        ]
+      },
+      {
+        "question": "Who is the general manager of the hotel?",
+        "category": "Management",
+        "response": "I don't have information about the current general manager of The Oberoi Udaivilas in my available resources. For the most up-to-date information about our management team, I'd be happy to connect you with our front desk or you can contact us directly at the hotel. Is there anything else about our accommodations, amenities, or services I can help you with during your stay? For the most accurate information, please contact us directly and our team will assist you right away.",
+        "quality": "NO_INFO",
+        "accuracy": 0,
+        "issues": [
+          "AI couldn't find information in KB"
+        ],
+        "intent": "faq",
+        "elapsed": "4.85s",
+        "escalate": "no",
+        "expected_keywords": [
+          "amit kaul"
+        ],
+        "found_keywords": [],
+        "missed_keywords": [
+          "amit kaul"
+        ]
+      },
+      {
+        "question": "Tell me about the Kohinoor Suite",
+        "category": "Premium Room",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "Can I dine by the lake?",
+        "category": "Lakeside Dining",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      }
+    ],
+    "summary": {
+      "total": 15,
+      "good": 0,
+      "partial": 2,
+      "poor": 3,
+      "escalated": 0,
+      "no_response": 6,
+      "no_info": 4,
+      "avg_accuracy": 4.4,
+      "good_rate": "0%"
+    }
+  },
+  "hotel_riviera_cr": {
+    "name": "The Riverie by Katathani",
+    "collection_id": "hotel_riviera_cr",
+    "chunks": 162,
+    "questions": [
+      {
+        "question": "What types of rooms do you have?",
+        "category": "Rooms",
+        "response": "We offer several beautiful room types at The Riverie by Katathani Chiang Rai: **Standard Rooms:** - **Deluxe Room** (36 sqm) - 24 units available - **Deluxe Garden** - **Deluxe Water Park** - **Deluxe River** **Suites:** - **Family Suite** (62-75 sqm) - 18 units available, featuring a parent's bedroom and children's corner with sliding door separation, plus a bathroom with both shower and bathtub with children's amenities - **Riverie Suite** - **Two-Bedroom Suite** (95 sqm) - 6 units available, located on the highest level for refreshing clear air and nature views - **Royal Suite** All rooms come with complimentary WiFi, LCD TV, refrigerator, tea & coffee kettle, IDD telephone, air-conditioning, safety deposit box, hair dryer, slippers and bath robes. Would you like more details about any specific room type?",
+        "quality": "GOOD",
+        "accuracy": 100.0,
+        "issues": [],
+        "intent": "faq",
+        "elapsed": "6.6s",
+        "escalate": "no",
+        "expected_keywords": [
+          "deluxe",
+          "family suite",
+          "riverie suite",
+          "royal suite",
+          "two-bedroom"
+        ],
+        "found_keywords": [
+          "deluxe",
+          "family suite",
+          "riverie suite",
+          "royal suite",
+          "two-bedroom"
+        ],
+        "missed_keywords": []
+      },
+      {
+        "question": "Do you have a water park or swimming pool?",
+        "category": "Pool/Water Park",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "Do you have facilities for children?",
+        "category": "Kids",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "Can you host conferences or large events?",
+        "category": "Events",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "Where is the hotel located?",
+        "category": "Location",
+        "response": "I don't have the specific location details for Hotel Riviera Cr in the information available to me right now. For the exact address and location details, I'd recommend calling the hotel directly or checking their website. Is there anything else about our rooms, facilities, or services I can help you with today?",
+        "quality": "NO_INFO",
+        "accuracy": 0,
+        "issues": [
+          "AI couldn't find information in KB"
+        ],
+        "intent": "faq",
+        "elapsed": "4.83s",
+        "escalate": "no",
+        "expected_keywords": [
+          "chiang rai",
+          "kraisorasit",
+          "1129"
+        ],
+        "found_keywords": [],
+        "missed_keywords": [
+          "chiang rai",
+          "kraisorasit",
+          "1129"
+        ]
+      },
+      {
+        "question": "What is the hotel phone number?",
+        "category": "Contact",
+        "response": "I don't have the hotel's phone number in my current information. For the most accurate contact details, I'd recommend checking your booking confirmation, the hotel's official website at theriverie.com, or contacting your travel agent. Is there anything else about our rooms, facilities, or services I can help you with?",
+        "quality": "NO_INFO",
+        "accuracy": 0,
+        "issues": [
+          "AI couldn't find information in KB"
+        ],
+        "intent": "faq",
+        "elapsed": "4.65s",
+        "escalate": "no",
+        "expected_keywords": [
+          "53 607999",
+          "607999"
+        ],
+        "found_keywords": [],
+        "missed_keywords": [
+          "53 607999",
+          "607999"
+        ]
+      },
+      {
+        "question": "Do you have a spa?",
+        "category": "Spa",
+        "response": "I don't have information about spa services at Hotel Riviera Cr in my current resources. I'd be happy to check with our front desk team who can provide you with the most up-to-date information about our spa facilities and services. You can reach them by dialing 0 from your room phone, or I can connect you directly if you'd like! For the most accurate information, please contact us directly and our team will assist you right away.",
+        "quality": "NO_INFO",
+        "accuracy": 0,
+        "issues": [
+          "AI couldn't find information in KB"
+        ],
+        "intent": "faq",
+        "elapsed": "5.34s",
+        "escalate": "no",
+        "expected_keywords": [
+          "spa"
+        ],
+        "found_keywords": [
+          "spa"
+        ],
+        "missed_keywords": []
+      },
+      {
+        "question": "What awards has the hotel won?",
+        "category": "Awards",
+        "response": "The Riverie by Katathani has won numerous prestigious awards! Here are our most notable recognitions: **Recent Awards (2025):** - Thailand Tourism Excellence Award \u2013 Accommodation (Resort) at the 15th Thailand Tourism Awards 2025 - Thailand Tourism Sustainability Award \u2013 Accommodation 2025 - 2025 TripAdvisor Travelers' Choice Award Winner (top 10% of hotels worldwide) - Thailand MICE Venue Standard Certified 2025-2027 - **Hall of Fame** at Thailand Tourism Awards 2025 **Previous Recognition:** - 2021 Travelers' Choice Award Winner (top 10% hotels worldwide) - Green Hotel Certification by Department of Environmental Quality Promotion (2020) - GMP and HACCP Certificate 2020-2021 - 9.2/10 from Agoda Customer Review Awards (2020) - SHA Certification - Amazing Thailand Safety and Health Association (2020) - ASEAN MICE Venue Standard 2020-2022 - 9.4/10 from Hotels.com \"MOST WANTED\" Award (2020) - Thailand Tourism Award 2019 - Design Hotel (Kinnari Award) - Thailand MICE Venue Standard Certif",
+        "quality": "GOOD",
+        "accuracy": 100.0,
+        "issues": [],
+        "intent": "faq",
+        "elapsed": "8.17s",
+        "escalate": "no",
+        "expected_keywords": [
+          "thailand tourism",
+          "hall of fame",
+          "sustainability",
+          "excellence"
+        ],
+        "found_keywords": [
+          "thailand tourism",
+          "hall of fame",
+          "sustainability",
+          "excellence"
+        ],
+        "missed_keywords": []
+      },
+      {
+        "question": "What is the cultural theme of the hotel?",
+        "category": "Theme",
+        "response": "Based on the hotel's design and concept, The Riverie by Katathani Chiang Rai embraces Northern Thai cultural themes. The Deluxe Room features \"Lanna classic contemporary design with warm color tones complimented with glimpses of gold,\" reflecting the rich heritage of the historic Lanna Kingdom that once ruled Northern Thailand. The hotel's restaurant, Blossom, is specifically \"inspired by the colorful flora of Northern Thailand,\" showcasing the region's natural beauty both in its indoor dining room and outdoor terrace design. This creates an authentic Northern Thai cultural experience that celebrates the area's traditional Lanna aesthetic while offering modern luxury amenities.",
+        "quality": "GOOD",
+        "accuracy": 100.0,
+        "issues": [],
+        "intent": "faq",
+        "elapsed": "6.38s",
+        "escalate": "no",
+        "expected_keywords": [
+          "lanna",
+          "northern thai",
+          "cultural"
+        ],
+        "found_keywords": [
+          "lanna",
+          "northern thai",
+          "cultural"
+        ],
+        "missed_keywords": []
+      },
+      {
+        "question": "Do you offer airport transfer?",
+        "category": "Transport",
+        "response": "I don't have specific information about airport transfer services in my current resources. For the most accurate and up-to-date information about airport transfers, I'd recommend contacting our front desk directly. They'll be happy to assist you with transportation arrangements and can provide details about available options, pricing, and scheduling. Is there anything else I can help you with regarding your stay at Hotel Riviera Cr?",
+        "quality": "NO_INFO",
+        "accuracy": 0,
+        "issues": [
+          "AI couldn't find information in KB"
+        ],
+        "intent": "faq",
+        "elapsed": "5.31s",
+        "escalate": "no",
+        "expected_keywords": [
+          "airport",
+          "transfer"
+        ],
+        "found_keywords": [
+          "airport",
+          "transfer"
+        ],
+        "missed_keywords": []
+      },
+      {
+        "question": "Tell me about the Deluxe River room",
+        "category": "Room Detail",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      },
+      {
+        "question": "What dining options are available?",
+        "category": "Dining",
+        "response": "Based on our hotel's dining venues, we have several excellent options for you: **The Peak Wine & Grill** - Our signature restaurant perched at the highest point in Chiang Rai, offering sweeping views of distant mountains and the city below. It's perfect for a romantic dining experience with Western cuisine including starters like Parma Ham (650 THB), Chiang Rai River Prawns (550 THB), and Pan-fried Duck Liver \"Foie Gras\" (1,000 THB). **China Garden** - Our Chinese restaurant for authentic Asian dining. **Blossom Restaurant** - Another dining venue available at the hotel. All prices are inclusive of service charge and government tax, and we're happy to accommodate special dietary requirements. Just speak with your server about any needs you may have! Would you like more details about any specific restaurant or their menus?",
+        "quality": "GOOD",
+        "accuracy": 100.0,
+        "issues": [],
+        "intent": "faq",
+        "elapsed": "7.5s",
+        "escalate": "no",
+        "expected_keywords": [
+          "restaurant",
+          "dining"
+        ],
+        "found_keywords": [
+          "restaurant",
+          "dining"
+        ],
+        "missed_keywords": []
+      },
+      {
+        "question": "Do you have a Royal Suite?",
+        "category": "Premium Room",
+        "response": "Yes, we do have a Royal Suite! It's our most luxurious accommodation at 291 square meters. The Royal Suite features a deluxe bathroom with a private Jacuzzi and an oversized balcony where you can enjoy the atmosphere from the top of the hotel. The suite includes all our premium amenities: complimentary in-room WiFi, LCD television, refrigerator, tea & coffee kettle, IDD telephone, air-conditioning, safety deposit box, hair dryer, and slippers with bath robes. Would you like me to help you with booking information or do you have any other questions about the Royal Suite?",
+        "quality": "GOOD",
+        "accuracy": 100.0,
+        "issues": [],
+        "intent": "faq",
+        "elapsed": "5.32s",
+        "escalate": "no",
+        "expected_keywords": [
+          "royal suite"
+        ],
+        "found_keywords": [
+          "royal suite"
+        ],
+        "missed_keywords": []
+      },
+      {
+        "question": "What is the email to book a room?",
+        "category": "Booking Contact",
+        "response": "I don't see an email address for booking rooms in the information I have available. However, I can see there's an online booking system available through the \"Book Now\" link on the website. For the most accurate booking information and email contact, I'd recommend calling our front desk directly, and they'll be happy to assist you with reservations and provide you with the appropriate email contact if needed.",
+        "quality": "POOR",
+        "accuracy": 0.0,
+        "issues": [
+          "Missing keywords: booking@theriverie, theriverie"
+        ],
+        "intent": "faq",
+        "elapsed": "5.47s",
+        "escalate": "no",
+        "expected_keywords": [
+          "booking@theriverie",
+          "theriverie"
+        ],
+        "found_keywords": [],
+        "missed_keywords": [
+          "booking@theriverie",
+          "theriverie"
+        ]
+      },
+      {
+        "question": "Is there a poolside terrace for events?",
+        "category": "Event Venue",
+        "response": "",
+        "quality": "NO_RESPONSE",
+        "accuracy": 0,
+        "issues": [
+          "No response received from simulator"
+        ]
+      }
+    ],
+    "summary": {
+      "total": 15,
+      "good": 5,
+      "partial": 0,
+      "poor": 1,
+      "escalated": 0,
+      "no_response": 5,
+      "no_info": 4,
+      "avg_accuracy": 33.3,
+      "good_rate": "33%"
+    }
+  }
+}
