@@ -1,0 +1,198 @@
+{
+  "test_date": "2026-04-01T06:20:11.284457",
+  "hotel": {
+    "name": "LePatta",
+    "id": "lepatta",
+    "subdomain": "lepatta"
+  },
+  "dashboard_loaded": true,
+  "sections": {
+    "Overview": {
+      "accessible": true,
+      "content_length": 559,
+      "url": "https://lepatta.hotelintelliai.com/"
+    },
+    "Conversations": {
+      "accessible": true,
+      "content_length": 437,
+      "url": "https://lepatta.hotelintelliai.com/"
+    },
+    "Guests": {
+      "accessible": true,
+      "content_length": 595,
+      "url": "https://lepatta.hotelintelliai.com/"
+    },
+    "Escalations": {
+      "accessible": true,
+      "content_length": 334,
+      "url": "https://lepatta.hotelintelliai.com/"
+    },
+    "Channels": {
+      "accessible": true,
+      "content_length": 602,
+      "url": "https://lepatta.hotelintelliai.com/",
+      "channel_whatsapp": true,
+      "channel_telegram": true,
+      "channel_line": true,
+      "channel_email": true,
+      "channel_web": true
+    },
+    "Knowledge Base": {
+      "accessible": true,
+      "content_length": 563,
+      "url": "https://lepatta.hotelintelliai.com/",
+      "chunks": 213,
+      "tab_File": "accessible",
+      "tab_URL": "accessible",
+      "tab_FAQ": "accessible"
+    },
+    "Debug": {
+      "accessible": true,
+      "content_length": 272,
+      "url": "https://lepatta.hotelintelliai.com/",
+      "tab_Health Check": {
+        "accessible": true,
+        "length": 272
+      },
+      "health_check_result": "HotelIntelliai\nCOMMAND CENTER\nLe Patta Hotel\nOverview\nConversations\nGuests\nEscalations\n1\nChannels\nKnowledge Base\nDebug\nanirudhatomeiz@gmail.com\nDebug\nField diagnostics & testing tools\n\ud83c\udfe5 Health Check\n\ud83d\udd0d RAG Tester\n\u25b6 Msg Simulator\n\ud83d\uddc4 DB Stats\n\ud83d\udc64 Guest Lookup\n\ud83d\udd0d Run Health Check\n\u2705\nHotel is healthy\nlepatta\nHOTEL RECORD\nDB Record\nok\nNAME\nLe Patta Hotel\nACTIVE\nYes\nCOLLECTION\nlepatta\nKB UPLOADS\n0\nTIMEZONE\nAsia/Bangkok\nQDRANT / VECTORS\nConnection\nok\nCOLLECTION\nlepatta\nVECTOR COUNT\n213\nSTATUS\ngreen\nCHANNELS\n",
+      "tab_RAG Tester": {
+        "accessible": true,
+        "length": 282
+      },
+      "tab_Msg Simulator": {
+        "accessible": true,
+        "length": 377
+      },
+      "tab_DB Stats": {
+        "accessible": true,
+        "length": 269
+      },
+      "tab_Guest Lookup": {
+        "accessible": true,
+        "length": 309
+      }
+    }
+  },
+  "concierge": {
+    "questions": [
+      {
+        "q_num": 1,
+        "question": "What are the check-in and check-out times?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 2.07s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+        "classification": "ESCALATION",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 2,
+        "question": "What room types do you have?",
+        "response": "We have three room types available at Le Patta Hotel: **Superior Room** - These are corner rooms located on the lowest floor, featuring 10-inch thick king size or twin beds, rain shower, 42-inch Smart TV, and a touch-screen panel to control lighting and air-conditioning. **Deluxe Room** - These rooms offer stunning swimming pool views among our green garden, with 10-inch thick king size or twin beds, a balcony, 42-inch Smart TV with DVD player, and the same convenient touch-screen controls. **Su",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 3,
+        "question": "Do you have a restaurant on site?",
+        "response": "Yes, Le Patta Hotel has an on-site restaurant! Based on the information available, the hotel features dining facilities as part of our amenities. For additional dining experiences, we're also located near some wonderful riverside restaurants along the beautiful Kok River, including Leelawadee and Chivit Thamma Da Coffee House, which offer scenic waterfront dining with fresh, homemade food in a natural setting. Would you like more details about our dining options or recommendations for nearby res",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 4,
+        "question": "Is there a swimming pool?",
+        "response": "Yes, we have a salt water swimming pool! It's surrounded by a beautiful green garden and offers a lovely view for our guests to enjoy. The pool is one of our featured facilities here at Le Patta Hotel. INTENT faq LANGUAGE EN ELAPSED 5.46s ESCALATE no \u2139 Message NOT sent to any channel \u2014 simulation only",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 5,
+        "question": "What spa services do you offer?",
+        "response": "I don't see any spa services listed in our current facilities and amenities. However, we do offer several wellness-related facilities including a gym and salt water swimming pool that you might enjoy for relaxation. For the most up-to-date information about spa services or wellness treatments, I'd recommend contacting our front desk directly, as they can provide you with complete details about all available services at Le Patta Hotel. INTENT faq LANGUAGE EN ELAPSED 6s ESCALATE no \u2139 Message NOT s",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 6,
+        "question": "Do you provide airport shuttle service?",
+        "response": "Yes, we do provide shuttle service at Le Patta Hotel! This is one of our complimentary services available to guests, along with our other facilities like free WiFi, parking, and bike lending. For specific details about airport shuttle schedules or to arrange pickup, please contact our front desk at +66 53 600680 or +66 81 3574579, and our friendly staff will be happy to assist you with the arrangements. INTENT faq LANGUAGE EN ELAPSED 5.41s ESCALATE no \u2139 Message NOT sent to any channel \u2014 simulati",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 7,
+        "question": "Is breakfast included?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 1.98s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+        "classification": "ESCALATION",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 8,
+        "question": "What are your room rates?",
+        "response": "I don't have the current room rates available in my information. For the most accurate pricing and availability for our Superior, Deluxe, and Suite rooms, I'd recommend contacting our reservations team directly at +66 53 600680 or +66 81 3574579, or you can email us at sales@lepattachiangrai.com. They'll be happy to provide you with current rates and help you find the perfect room for your stay! INTENT faq LANGUAGE EN ELAPSED 4.84s ESCALATE no \u2139 Message NOT sent to any channel \u2014 simulation only",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 9,
+        "question": "Do you have conference or meeting facilities?",
+        "response": "I don't see any information about conference or meeting facilities in our current hotel details. For the most accurate information about meeting rooms or conference facilities at Le Patta Hotel, I'd recommend contacting our front desk directly. They'll be able to provide you with complete details about any available meeting spaces, capacity, and booking arrangements. Is there anything else about our other amenities - like our restaurant, gym, or swimming pool - that I can help you with? INTENT f",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 10,
+        "question": "Is there WiFi in the rooms?",
+        "response": "Yes, all rooms at Le Patta Hotel include free WiFi! This amenity is available in our Superior, Deluxe, and Suite rooms, so you'll be able to stay connected throughout your stay. INTENT faq LANGUAGE EN ELAPSED 4s ESCALATE no \u2139 Message NOT sent to any channel \u2014 simulation only",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 11,
+        "question": "What is the cancellation policy?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 1.95s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+        "classification": "ESCALATION",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 12,
+        "question": "Do you have a bar or lounge?",
+        "response": "Yes! We have several options for drinks and dining with a relaxed atmosphere: **Chivit Thamma Da Coffee House, Bistro & Bar** - This is located right on the banks of the beautiful Kok River. They serve natural, fresh homemade food, bakery items, coffees and drinks in a beautiful, peaceful environment surrounded by nature with flowing water, flower gardens and fresh air. **Leelawadee Restaurant** also has a lovely riverside setting on the Kok River with two zones - one features live music where y",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 13,
+        "question": "What activities are available nearby?",
+        "response": "There are several wonderful activities and attractions nearby that I'd recommend: **Chiang Rai Walking Street** - Opens every Saturday from 4:00 PM to midnight on Thanalai Street in downtown Chiang Rai. It's perfect for shopping and trying local food after sunset, with many vendors selling food, souvenirs, and traditional items. **Wat Huay Pla Kang** - Also known as the \"Big Buddha of Chiang Rai,\" this temple features an enormous white statue of Guanyin and sits on a hill in the rural area north",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 14,
+        "question": "Do you offer laundry service?",
+        "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 2.25s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+        "classification": "ESCALATION",
+        "is_duplicate": false
+      },
+      {
+        "q_num": 15,
+        "question": "Is there parking available?",
+        "response": "Yes, we have a parking lot available for our guests! This is one of our complimentary facilities at Le Patta Hotel, so you can park your vehicle without any additional charges during your stay. INTENT faq LANGUAGE EN ELAPSED 4.17s ESCALATE no \u2139 Message NOT sent to any channel \u2014 simulation only",
+        "classification": "ANSWERED",
+        "is_duplicate": false
+      }
+    ],
+    "issues": [
+      "Q1: 'What are the check-in and check-out times?' -> ESCALATION",
+      "Q7: 'Is breakfast included?' -> ESCALATION",
+      "Q11: 'What is the cancellation policy?' -> ESCALATION",
+      "Q14: 'Do you offer laundry service?' -> ESCALATION"
+    ],
+    "stats": {
+      "total": 15,
+      "answered": 11,
+      "escalations": 4,
+      "errors": 0,
+      "accuracy_pct": 73.3
+    }
+  }
+}

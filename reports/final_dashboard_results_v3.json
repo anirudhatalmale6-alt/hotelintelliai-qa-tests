@@ -1,0 +1,320 @@
+{
+  "test_date": "2026-04-01T06:11:43.024990",
+  "tester": "Anirudha Talmale",
+  "app": "HotelIntelliai Dashboard",
+  "scope": "Full staff perspective testing - Riverie & Le Patte",
+  "hotels": {
+    "hotel_riviera_cr": {
+      "name": "Riverie",
+      "id": "hotel_riviera_cr",
+      "subdomain": "hotel_riviera_cr",
+      "all_issues": [
+        "Q1: 'What are the check-in and check-out times?' -> ESCALATION (KB may not have this info)",
+        "Q5: 'Do you offer airport transfer services?' -> ESCALATION (KB may not have this info)",
+        "Q10: 'Is there free WiFi available?' -> ESCALATION (KB may not have this info)",
+        "Q11: 'Do you have parking facilities?' -> ESCALATION (KB may not have this info)",
+        "Q14: 'What are the room rates or pricing?' -> ESCALATION (KB may not have this info)",
+        "Q15: 'Do you have a fitness center or gym?' -> ESCALATION (KB may not have this info)"
+      ],
+      "navigation": {
+        "success": true,
+        "url": "https://hotel_riviera_cr.hotelintelliai.com/",
+        "dashboard_loaded": true
+      },
+      "sections": {
+        "Overview": {
+          "accessible": true,
+          "content_length": 630,
+          "has_error": false,
+          "error_detail": "",
+          "url": "https://hotel_riviera_cr.hotelintelliai.com/",
+          "has_conversation": true,
+          "has_guest": true,
+          "has_channel": true,
+          "has_escalation": true
+        },
+        "Conversations": {
+          "accessible": true,
+          "content_length": 529,
+          "has_error": false,
+          "error_detail": "",
+          "url": "https://hotel_riviera_cr.hotelintelliai.com/",
+          "has_list": true
+        },
+        "Guests": {
+          "accessible": true,
+          "content_length": 609,
+          "has_error": false,
+          "error_detail": "",
+          "url": "https://hotel_riviera_cr.hotelintelliai.com/",
+          "has_list": true
+        },
+        "Escalations": {
+          "accessible": true,
+          "content_length": 401,
+          "has_error": false,
+          "error_detail": "",
+          "url": "https://hotel_riviera_cr.hotelintelliai.com/",
+          "escalation_mentions": 2
+        },
+        "Channels": {
+          "accessible": true,
+          "content_length": 612,
+          "has_error": false,
+          "error_detail": "",
+          "url": "https://hotel_riviera_cr.hotelintelliai.com/",
+          "channel_whatsapp": true,
+          "channel_line": true,
+          "channel_web": true,
+          "channel_email": true,
+          "channel_telegram": true
+        },
+        "Knowledge Base": {
+          "accessible": true,
+          "content_length": 580,
+          "has_error": false,
+          "error_detail": "",
+          "url": "https://hotel_riviera_cr.hotelintelliai.com/",
+          "chunks": 162,
+          "tab_File": "accessible",
+          "tab_URL": "accessible",
+          "tab_FAQ": "accessible"
+        },
+        "Debug": {
+          "accessible": true,
+          "content_length": 282,
+          "has_error": false,
+          "error_detail": "",
+          "url": "https://hotel_riviera_cr.hotelintelliai.com/",
+          "tab_Health Check": {
+            "accessible": true,
+            "content_length": 282
+          },
+          "tab_RAG Tester": {
+            "accessible": true,
+            "content_length": 292
+          },
+          "tab_Msg Simulator": {
+            "accessible": true,
+            "content_length": 387
+          },
+          "tab_DB Stats": {
+            "accessible": true,
+            "content_length": 279
+          },
+          "tab_Guest Lookup": {
+            "accessible": true,
+            "content_length": 319
+          }
+        }
+      },
+      "health_check": {
+        "ran": true,
+        "content": "HotelIntelliai\nCOMMAND CENTER\nThe Riverie by Katathani\nOverview\nConversations\nGuests\nEscalations\n2\nChannels\nKnowledge Base\nDebug\nanirudhatomeiz@gmail.com\nDebug\nField diagnostics & testing tools\n\ud83c\udfe5 Health Check\n\ud83d\udd0d RAG Tester\n\u25b6 Msg Simulator\n\ud83d\uddc4 DB Stats\n\ud83d\udc64 Guest Lookup\n\ud83d\udd0d Run Health Check\n\u2705\nHotel is healthy\nhotel_riviera_cr\nHOTEL RECORD\nDB Record\nok\nNAME\nThe Riverie by Katathani\nACTIVE\nYes\nCOLLECTION\nhotel_riviera_cr\nKB UPLOADS\n1\nTIMEZONE\nAsia/Bangkok\nQDRANT / VECTORS\nConnection\nok\nCOLLECTION\nhotel_riviera_cr\nVECTOR COUNT\n162\nSTATUS\ngreen\nCHANNELS\n5\nWHATSAPP\nkey: 1048022721720779\nok\nTELEGRAM\nkey: telegram_8134450707\nok\nLINE\nkey: 2009335847\nok\nWEB\nkey: rv_web\nfail\nEMAIL\nkey: email_riverie_001\nok\nREDPANDA\nBroker\nok\nLAST CONVERSATION\nHas Conversations\nok\nCONVERSATION ID\n#110\nLAST MESSAGE\n2026-03-31T09:51:18.282791\nSTATUS\nactive\nMESSAGES\n5",
+        "status": "fail indicators found"
+      },
+      "rag_tester": {
+        "queries": [],
+        "issues": [],
+        "accessible": true,
+        "content": "HotelIntelliai\nCOMMAND CENTER\nThe Riverie by Katathani\nOverview\nConversations\nGuests\nEscalations\n2\nChannels\nKnowledge Base\nDebug\nanirudhatomeiz@gmail.com\nDebug\nField diagnostics & testing tools\n\ud83c\udfe5 Health Check\n\ud83d\udd0d RAG Tester\n\u25b6 Msg Simulator\n\ud83d\uddc4 DB Stats\n\ud83d\udc64 Guest Lookup\nTOP K\nTHRESHOLD\n\ud83d\udd0d Search RAG"
+      },
+      "db_stats": {
+        "accessible": true,
+        "content": "HotelIntelliai\nCOMMAND CENTER\nThe Riverie by Katathani\nOverview\nConversations\nGuests\nEscalations\n2\nChannels\nKnowledge Base\nDebug\nanirudhatomeiz@gmail.com\nDebug\nField diagnostics & testing tools\n\ud83c\udfe5 Health Check\n\ud83d\udd0d RAG Tester\n\u25b6 Msg Simulator\n\ud83d\uddc4 DB Stats\n\ud83d\udc64 Guest Lookup\n\ud83d\udd04 Refresh Stats"
+      },
+      "escalations_detail": {
+        "content_preview": "HotelIntelliai\nCOMMAND CENTER\nThe Riverie by Katathani\nOverview\nConversations\nGuests\nEscalations\n2\nChannels\nKnowledge Base\nDebug\nanirudhatomeiz@gmail.com\nEscalations\n2 open \u00b7 2 shown\nHIGH PRIORITY\n1\nMEDIUM PRIORITY\n1\nLOW PRIORITY\n0\nAll priority\nAll status\n2 shown\nPRIORITY \tGUEST \tREASON\tSTATUS \tCREATED \n\nhigh\n\tJames Whitfield\tMAINTENANCE\topen\t1d ago\n\nmedium\n\tSophie Laurent\tCOMPLAINT\tresolved\t6d ago",
+        "has_items": true
+      },
+      "concierge": {
+        "questions": [
+          {
+            "q_num": 1,
+            "question": "What are the check-in and check-out times?",
+            "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 3.83s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+            "classification": "ESCALATION",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 2,
+            "question": "What types of rooms do you offer?",
+            "response": "(could not extract)",
+            "classification": "ERROR",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 3,
+            "question": "Do you have a swimming pool?",
+            "response": "I'd be happy to help you with information about our pool facilities! While I can see we have a Jumanji Pool Bar mentioned in our amenities, I don't have the complete details about our swimming pool facilities readily available at the moment. For the most accurate and detailed information about our pool, including hours of operation and any specific amenities, I'd recommend contacting our front desk directly. They'll be able to provide you with all the specifics about our pool area and the Jumanj",
+            "classification": "ANSWERED",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 4,
+            "question": "What dining options are available at the hotel?",
+            "response": "Based on our hotel information, we have several dining venues to enhance your stay: **The Peak Restaurant** - Our fine dining establishment offering an elegant menu with dishes like Parma Ham with organic rock melon (650 THB), Chiang Rai River Prawns (550 THB), and Seared Octopus (450 THB). They also feature premium options like Pan-fried Duck Liver \"Foie Gras\" (1,000 THB). **Blossom Restaurant** - Another dining option available at the hotel. **China Garden** - Offering dinner service with Asia",
+            "classification": "ANSWERED",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 5,
+            "question": "Do you offer airport transfer services?",
+            "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 2.24s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+            "classification": "ESCALATION",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 6,
+            "question": "What spa treatments are available?",
+            "response": "Our spa, Tivaa Ratrii, offers a delightful range of head-to-toe treatments designed to enhance natural beauty, soothe and beautify hands and feet, and relax aching muscles. We're open daily from 11:00 AM to 9:00 PM. For detailed information about our specific treatments and pricing, you can view our complete [Spa Menu](https://www.theriverie.com/download/Tivaa-Ratrii-Spa-Menu.pdf). We also have current [promotions](https://www.theriverie.com/download/Tivva-Ratrii-Spa-Promotion.pdf) available tha",
+            "classification": "ANSWERED",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 7,
+            "question": "Is breakfast included in the room rate?",
+            "response": "I don't have information about breakfast inclusion in the room rates in my current knowledge base. For accurate details about what's included with your room reservation, I'd recommend contacting our front desk directly or checking your booking confirmation. Our team will be happy to clarify what amenities and meals are included with your specific room rate. For the most accurate information, please contact us directly and our team will assist you right away. INTENT faq LANGUAGE EN ELAPSED 5.78s",
+            "classification": "ANSWERED",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 8,
+            "question": "Do you have meeting rooms or event spaces?",
+            "response": "Yes, we have excellent meeting and event facilities! Hotel Riviera Cr offers a full range of event and meeting spaces that can accommodate any type of business or social function for up to 700 guests. Our facilities include various meeting rooms with names like Doi Tung, Doi Tong, Doi Wawee, Doi Come, Doi Jomtong, Doi Chang, Tham Luang, and Mahogany. We also have a wide poolside terrace that's perfect for large-scale functions and outdoor events. Our expert Events Team will work with you to ensu",
+            "classification": "ANSWERED",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 9,
+            "question": "What is your cancellation policy?",
+            "response": "I apologize, but I don't have information about Hotel Riviera Cr's cancellation policy in my current resources. For accurate details about our cancellation terms and conditions, I'd recommend: - Checking your booking confirmation email - Contacting our front desk directly - Visiting our website for the most up-to-date policy information Our front desk team will be happy to explain the specific cancellation terms that apply to your reservation. Is there anything else I can help you with regarding",
+            "classification": "ANSWERED",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 10,
+            "question": "Is there free WiFi available?",
+            "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 3.1s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+            "classification": "ESCALATION",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 11,
+            "question": "Do you have parking facilities?",
+            "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 2.05s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+            "classification": "ESCALATION",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 12,
+            "question": "What activities or excursions can you arrange?",
+            "response": "I'd be happy to help you with activities and excursions! From the information I have available, I can see that our hotel is located in the beautiful Chiang Rai area, which offers wonderful destinations like Doi Tung, Doi Chang, Tham Luang cave, and other scenic mountain locations. For families traveling with children, we have the fantastic Chang Maun Kids World right here at the hotel, which offers unlimited access for our guests. It features role-play zones, mini road adventures, art corners, a",
+            "classification": "ANSWERED",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 13,
+            "question": "Are pets allowed at the hotel?",
+            "response": "I don't see any information about the hotel's pet policy in the available details. For accurate information about whether pets are allowed at Hotel Riviera Cr, I'd recommend contacting the hotel directly. They'll be able to provide you with specific details about their pet policy, any associated fees, and any restrictions that may apply. Is there anything else about the hotel's amenities or services I can help you with? INTENT faq LANGUAGE EN ELAPSED 5.37s ESCALATE no \u2139 Message NOT sent to any c",
+            "classification": "ANSWERED",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 14,
+            "question": "What are the room rates or pricing?",
+            "response": "I don't have specific room rates or pricing information available in my current resources. For the most accurate and up-to-date pricing for our various room types - including Deluxe Rooms, Family Suites, Riverie Suites, Two-Bedroom Suites, and Royal Suites - I'd recommend contacting our reservations team directly or checking our online booking system. You can make a reservation through our booking link, or I'd be happy to connect you with our reservations department who can provide detailed pric",
+            "classification": "ESCALATION",
+            "is_duplicate": false
+          },
+          {
+            "q_num": 15,
+            "question": "Do you have a fitness center or gym?",
+            "response": "I want to make sure you get the best possible answer. Let me connect you with our team who can help you directly. Someone will be in touch with you very shortly! \ud83d\ude0a INTENT faq LANGUAGE EN ELAPSED 2.2s ESCALATE YES \u2139 Message NOT sent to any channel \u2014 simulation only",
+            "classification": "ESCALATION",
+            "is_duplicate": false
+          }
+        ],
+        "issues": [
+          "Q1: 'What are the check-in and check-out times?' -> ESCALATION (KB may not have this info)",
+          "Q5: 'Do you offer airport transfer services?' -> ESCALATION (KB may not have this info)",
+          "Q10: 'Is there free WiFi available?' -> ESCALATION (KB may not have this info)",
+          "Q11: 'Do you have parking facilities?' -> ESCALATION (KB may not have this info)",
+          "Q14: 'What are the room rates or pricing?' -> ESCALATION (KB may not have this info)",
+          "Q15: 'Do you have a fitness center or gym?' -> ESCALATION (KB may not have this info)"
+        ],
+        "stats": {
+          "total": 15,
+          "answered": 8,
+          "escalations": 6,
+          "errors": 1,
+          "accuracy_pct": 53.3
+        }
+      }
+    },
+    "lePatte": {
+      "name": "Le Patte",
+      "id": "lePatte",
+      "subdomain": "lePatte",
+      "all_issues": [
+        "Dashboard may not have loaded correctly",
+        "Knowledge Base not accessible",
+        "Section 'Overview' not accessible",
+        "Section 'Conversations' not accessible",
+        "Section 'Guests' not accessible",
+        "Section 'Escalations' not accessible",
+        "Section 'Channels' not accessible",
+        "Section 'Knowledge Base' not accessible",
+        "Section 'Debug' not accessible",
+        "Could not navigate to Debug section"
+      ],
+      "navigation": {
+        "success": true,
+        "url": "https://lepatte.hotelintelliai.com/",
+        "dashboard_loaded": false
+      },
+      "sections": {
+        "Overview": {
+          "accessible": false
+        },
+        "Conversations": {
+          "accessible": false
+        },
+        "Guests": {
+          "accessible": false
+        },
+        "Escalations": {
+          "accessible": false
+        },
+        "Channels": {
+          "accessible": false
+        },
+        "Knowledge Base": {
+          "accessible": false
+        },
+        "Debug": {
+          "accessible": false
+        }
+      },
+      "health_check": {
+        "error": "Could not find Health Check tab"
+      },
+      "rag_tester": {
+        "queries": [],
+        "issues": [
+          "Could not find RAG Tester tab"
+        ]
+      },
+      "db_stats": {
+        "error": "Could not find DB Stats tab"
+      },
+      "concierge": {
+        "questions": [],
+        "issues": [
+          "Could not navigate to Debug section"
+        ],
+        "stats": {}
+      }
+    }
+  }
+}
